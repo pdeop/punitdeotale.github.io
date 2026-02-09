@@ -1,0 +1,60 @@
+baseURL = "https://punitdeotale.com/"
+title = "Punit Deotale"
+languageCode = "en-us"
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 10
+
+[params]
+env = "production"
+description = "Identity and security engineer at AWS. Writing about IAM, authentication, and making cloud security work for developers."
+author = "Punit Deotale"
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
+ShowToc = false
+defaultTheme = "dark"
+disableThemeToggle = true
+
+  [params.homeInfoParams]
+  Title = "Punit Deotale"
+  Content = "I build IAM features at AWS used by millions of customers. I think the biggest unsolved problem in cloud security is that we've made the secure path harder than the insecure path. I write about fixing that."
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/punitdeotale/"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/punitdeotale"
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+name = "Publications"
+url = "/publications/"
+weight = 3
+
+[[menu.main]]
+name = "Talks"
+url = "/talks/"
+weight = 4
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[markup.highlight]
+style = "monokai"
+noClasses = false
