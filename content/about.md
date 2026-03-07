@@ -5,9 +5,9 @@ draft: false
 description: "About Punit Deotale — identity and security engineer making cloud IAM work for developers."
 ---
 
-I work on Identity and Access Management at AWS. I lead teams that build and ship IAM features used by millions of customers — root access management, multi-factor authentication, access analysis, credential lifecycle management.
+I work on Identity and Access Management at AWS. I lead teams that build and ship IAM features used by millions of customers — root access management, multi-factor authentication, credential lifecycle management.
 
-My role spans the full product lifecycle. I research customer pain points and identify gaps in how developers interact with security systems. I make product decisions on how we position features for long-term adoption. I drive technical architecture and security design. And when it's time to ship, I'm hands-on — devising hardware testing strategies, setting up test environments, and making sure what we launch actually works for real people with real problems.
+My role spans the full product lifecycle. I research customer pain points and identify gaps in how developers interact with security systems. I make product decisions on how we position features for long-term adoption. I drive technical architecture and security design. I'm the bridge between product and engineering — comfortable on both sides, wearing whatever hat the project needs. I regularly lead and contribute to technical system design reviews, UX design reviews, test planning, code reviews, operational readiness assessments, and ops excellence initiatives.
 
 IAM sits at the intersection of security, distributed systems, cryptography, and compliance — every decision has consequences at massive scale. I've spent four years in that world, in the room where these decisions get made.
 
@@ -23,7 +23,7 @@ I worked at DISH on enterprise automation systems, where I earned a "Best in Cla
 
 ## Research & publications
 
-I've published peer-reviewed research through the American Society for Engineering Education (ASEE). My work at AWS has been referenced in Amazon Science, the AWS Security Blog, and industry coverage from outlets like InfoQ.
+I've published peer-reviewed research through the American Society for Engineering Education (ASEE). My work at AWS has been referenced in the AWS Security Blog and industry coverage from outlets like InfoQ.
 
 Full publication list on the [Publications](/publications/) page, or find me on [Google Scholar](https://scholar.google.com/citations?user=Xl2GSWEAAAAJ).
 
