@@ -2,8 +2,10 @@
 title: "About"
 layout: "single"
 draft: false
-description: "About Punit Deotale — identity and security engineer making cloud IAM work for developers."
+description: "SDM at AWS. I build identity and access management for the cloud."
 ---
+
+![Punit Deotale](/images/profile.png)
 
 I work on Identity and Access Management at AWS. I lead teams that build and ship IAM features used by millions of customers — root access management, multi-factor authentication, credential lifecycle management.
 
@@ -42,4 +44,4 @@ I'm always looking to hear from developers who use IAM — what's working, what 
 
 - [LinkedIn](https://www.linkedin.com/in/punitdeotale/)
 - [Google Scholar](https://scholar.google.com/citations?user=Xl2GSWEAAAAJ)
-- [GitHub](https://github.com/punitdeotale)
+- [GitHub](https://github.com/pdeop)

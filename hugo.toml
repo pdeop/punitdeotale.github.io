@@ -8,7 +8,7 @@ pagerSize = 10
 
 [params]
 env = "production"
-description = "Identity and security engineer at AWS. Writing about IAM, authentication, and making cloud security work for developers."
+description = "SDM at AWS. I build identity and access management for the cloud."
 author = "Punit Deotale"
 ShowReadingTime = true
 ShowShareButtons = false
@@ -29,7 +29,7 @@ disableThemeToggle = true
 
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/punitdeotale"
+  url = "https://github.com/pdeop"
 
 [[menu.main]]
 name = "Blog"

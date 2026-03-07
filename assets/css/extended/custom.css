@@ -309,6 +309,26 @@ header .logo a {
   }
 }
 
+/* --- About page profile photo --- */
+.post-content img[alt="Punit Deotale"] {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  float: right;
+  margin: 0 0 1.5rem 2rem;
+  border: 2px solid var(--border);
+}
+
+@media (max-width: 768px) {
+  .post-content img[alt="Punit Deotale"] {
+    float: none;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+  }
+}
+
 /* --- Remove any PaperMod box shadows --- */
 .post-entry,
 .first-entry {
