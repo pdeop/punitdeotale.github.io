@@ -4,7 +4,7 @@ date: 2026-03-04
 draft: false
 description: "IAM is the single biggest source of friction in cloud adoption. After years of building identity systems at AWS, here's what I think we're getting wrong."
 tags: ["iam", "cloud-security", "developer-experience", "aws"]
-categories: ["Cloud Security"]
+categories: ["Technology"]
 author: "Punit Deotale"
 ---
 

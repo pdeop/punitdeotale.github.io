@@ -1,33 +1,20 @@
 /* ========================================
    Punit Deotale — Custom Theme Override
-   Dark, refined, minimal with intention
+   Light, refined, minimal with intention
    ======================================== */
 
 /* --- Color System --- */
 :root {
-  --theme: #0a0a0a;
-  --entry: #111111;
-  --primary: #e0e0e0;
-  --secondary: #888888;
-  --tertiary: #1a1a1a;
-  --content: #cccccc;
-  --hljs-bg: #111111;
-  --code-bg: #111111;
-  --border: #222222;
-  --accent: #d4a574; /* warm muted gold — distinctive, not loud */
-}
-
-/* Force dark always */
-.dark {
-  --theme: #0a0a0a;
-  --entry: #111111;
-  --primary: #e0e0e0;
-  --secondary: #888888;
-  --tertiary: #1a1a1a;
-  --content: #cccccc;
-  --hljs-bg: #111111;
-  --code-bg: #111111;
-  --border: #222222;
+  --theme: #ffffff;
+  --entry: #f9f9f9;
+  --primary: #1a1a1a;
+  --secondary: #666666;
+  --tertiary: #f4f4f4;
+  --content: #333333;
+  --hljs-bg: #f6f6f6;
+  --code-bg: #f6f6f6;
+  --border: #e0e0e0;
+  --accent: #b07d4f; /* warm muted gold — distinctive, not loud */
 }
 
 /* --- Typography --- */
@@ -38,7 +25,7 @@ body {
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #0a0a0a;
+  background: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -211,7 +198,7 @@ header .logo a {
   border: 1px solid var(--border);
 }
 
-/* Bold text — use accent for emphasis */
+/* Bold text */
 .post-content strong {
   color: var(--primary);
   font-weight: 500;
@@ -268,7 +255,7 @@ header .logo a {
 /* --- Selection color --- */
 ::selection {
   background: var(--accent);
-  color: #0a0a0a;
+  color: #ffffff;
 }
 
 /* --- Scroll bar (subtle) --- */
@@ -363,4 +350,83 @@ header .logo a {
   border: none !important;
   border-bottom: 1px solid var(--border) !important;
   padding: 1.2rem 0 !important;
+}
+
+/* --- Topics / Category Grid --- */
+.category-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.category-card {
+  display: block;
+  padding: 1.4rem 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--entry);
+  text-decoration: none;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.category-card:hover {
+  border-color: var(--accent);
+  background: var(--tertiary);
+}
+
+.category-card-title {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--primary);
+  margin: 0 0 0.4rem 0;
+  letter-spacing: -0.01em;
+}
+
+.category-card-desc {
+  font-size: 0.88rem;
+  color: var(--secondary);
+  line-height: 1.5;
+  margin: 0 0 0.6rem 0;
+}
+
+.category-card-count {
+  font-size: 0.75rem;
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.7;
+}
+
+/* --- Page header for Topics page --- */
+.page-header {
+  margin-bottom: 1rem;
+}
+
+.page-header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.3rem;
+}
+
+.page-description {
+  color: var(--secondary);
+  font-size: 0.95rem;
+  margin-top: 0;
+}
+
+/* --- Category badge on post entries --- */
+.post-meta .category-badge {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  opacity: 0.9;
 }

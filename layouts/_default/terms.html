@@ -1,0 +1,25 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <p class="page-description">{{ .Description }}</p>
+  {{- end }}
+</header>
+
+<div class="category-grid">
+  {{- $categories := .Data.Terms.Alphabetical }}
+  {{- range $categories }}
+  {{- $term := .Term }}
+  {{- $page := .Page }}
+  <a href="{{ $page.Permalink }}" class="category-card">
+    <h2 class="category-card-title">{{ $page.Title | default (humanize $term) }}</h2>
+    {{- if $page.Description }}
+    <p class="category-card-desc">{{ $page.Description }}</p>
+    {{- end }}
+    <span class="category-card-count">{{ .Count }} {{ if eq .Count 1 }}post{{ else }}posts{{ end }}</span>
+  </a>
+  {{- end }}
+</div>
+
+{{- end }}{{/* end main */}}

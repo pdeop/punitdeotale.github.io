@@ -7,8 +7,9 @@ tags:
   - tag1
   - tag2
 categories:
-  - category1
+  # Pick one: Technology, Electric Vehicles, Longevity and Health, My Work
+  - Technology
 author: "Punit Deotale"
 ---
 
-Write your blog post content here. This is a template for new blog posts.
+Write your blog post content here.

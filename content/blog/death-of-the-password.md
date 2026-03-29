@@ -4,7 +4,7 @@ date: 2026-02-08
 draft: true
 description: "After decades of trying to kill the password, FIDO2 and passkeys might actually succeed. But the transition won't be as smooth as anyone hopes."
 tags: ["authentication", "fido2", "passkeys", "security", "developer-experience"]
-categories: ["Cloud Security"]
+categories: ["Technology"]
 author: "Punit Deotale"
 ---
 
