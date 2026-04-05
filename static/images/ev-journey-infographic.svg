@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 900" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="760" height="900" fill="#fafafa"/>
+
+  <!-- ═══════ HEADER ═══════ -->
+  <text x="380" y="46" text-anchor="middle" font-size="22" font-weight="600" fill="#1a1a1a" letter-spacing="-0.5">3.5 Years. 3 EVs. Zero Gas.</text>
+  <text x="380" y="70" text-anchor="middle" font-size="12" fill="#999" letter-spacing="0.5">AUGUST 2022 — MARCH 2026</text>
+
+  <!-- ═══════ VEHICLE TIMELINE ═══════ -->
+  <!-- Timeline line -->
+  <line x1="100" y1="130" x2="660" y2="130" stroke="#e0e0e0" stroke-width="2"/>
+
+  <!-- Dot 1: Tesla -->
+  <circle cx="140" cy="130" r="8" fill="#888"/>
+  <text x="140" y="118" text-anchor="middle" font-size="10" fill="#999" letter-spacing="0.5">AUG 2022</text>
+  <text x="140" y="155" text-anchor="middle" font-size="11" font-weight="500" fill="#1a1a1a">Tesla Model Y</text>
+  <text x="140" y="170" text-anchor="middle" font-size="10" fill="#666">Performance</text>
+
+  <!-- Dot 2: R1S -->
+  <circle cx="370" cy="130" r="8" fill="#b07d4f"/>
+  <text x="370" y="118" text-anchor="middle" font-size="10" fill="#999" letter-spacing="0.5">MAR 2024</text>
+  <text x="370" y="155" text-anchor="middle" font-size="11" font-weight="500" fill="#1a1a1a">Rivian R1S</text>
+  <text x="370" y="170" text-anchor="middle" font-size="10" fill="#666">Quad Motor</text>
+
+  <!-- Dot 3: R1T -->
+  <circle cx="540" cy="130" r="8" fill="#4a7c59"/>
+  <text x="540" y="118" text-anchor="middle" font-size="10" fill="#999" letter-spacing="0.5">OCT 2024</text>
+  <text x="540" y="155" text-anchor="middle" font-size="11" font-weight="500" fill="#1a1a1a">Rivian R1T</text>
+  <text x="540" y="170" text-anchor="middle" font-size="10" fill="#666">Daily Driver</text>
+
+  <!-- Dot 4: Today -->
+  <circle cx="660" cy="130" r="8" fill="#1a1a1a" stroke="#b07d4f" stroke-width="2"/>
+  <text x="660" y="118" text-anchor="middle" font-size="10" fill="#b07d4f" font-weight="500" letter-spacing="0.5">TODAY</text>
+
+  <!-- ═══════ BIG NUMBER: MILES ═══════ -->
+  <text x="380" y="240" text-anchor="middle" font-size="72" font-weight="700" fill="#1a1a1a" letter-spacing="-3">87,000</text>
+  <text x="380" y="265" text-anchor="middle" font-size="14" fill="#666" letter-spacing="2">ELECTRIC MILES</text>
+
+  <!-- Mile breakdown pills -->
+  <rect x="80" y="285" width="180" height="36" rx="18" fill="#f0f0f0" stroke="#ddd" stroke-width="1"/>
+  <circle cx="100" cy="303" r="6" fill="#888"/>
+  <text x="115" y="308" font-size="12" fill="#666">Tesla</text>
+  <text x="230" y="308" text-anchor="end" font-size="13" font-weight="600" fill="#1a1a1a">33,000 mi</text>
+
+  <rect x="290" y="285" width="180" height="36" rx="18" fill="#f0f0f0" stroke="#ddd" stroke-width="1"/>
+  <circle cx="310" cy="303" r="6" fill="#b07d4f"/>
+  <text x="325" y="308" font-size="12" fill="#666">R1S</text>
+  <text x="440" y="308" text-anchor="end" font-size="13" font-weight="600" fill="#1a1a1a">34,614 mi</text>
+
+  <rect x="500" y="285" width="180" height="36" rx="18" fill="#f0f0f0" stroke="#ddd" stroke-width="1"/>
+  <circle cx="520" cy="303" r="6" fill="#4a7c59"/>
+  <text x="535" y="308" font-size="12" fill="#666">R1T</text>
+  <text x="650" y="308" text-anchor="end" font-size="13" font-weight="600" fill="#1a1a1a">19,358 mi</text>
+
+  <!-- ═══════ DIVIDER ═══════ -->
+  <line x1="180" y1="350" x2="580" y2="350" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- ═══════ GAS SAVED SECTION ═══════ -->
+  <!-- Gas pump icon (simplified) -->
+  <rect x="90" y="380" width="44" height="52" rx="6" fill="none" stroke="#cc4444" stroke-width="2"/>
+  <rect x="98" y="390" width="28" height="16" rx="2" fill="#cc4444" opacity="0.15"/>
+  <line x1="134" y1="395" x2="148" y2="385" stroke="#cc4444" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="148" cy="383" r="3" fill="none" stroke="#cc4444" stroke-width="2"/>
+
+  <text x="170" y="400" font-size="36" font-weight="700" fill="#1a1a1a">3,480</text>
+  <text x="170" y="422" font-size="13" fill="#666">gallons of gasoline kept in the ground</text>
+  <text x="170" y="440" font-size="11" fill="#999">vs. a 25 MPG SUV over the same distance</text>
+
+  <!-- ═══════ CO2 SECTION ═══════ -->
+  <!-- Leaf/earth icon -->
+  <circle cx="112" cy="500" r="24" fill="#4a7c59" opacity="0.1" stroke="#4a7c59" stroke-width="1.5"/>
+  <path d="M104 510 Q112 485 120 510" fill="none" stroke="#4a7c59" stroke-width="2" stroke-linecap="round"/>
+  <line x1="112" y1="495" x2="112" y2="515" stroke="#4a7c59" stroke-width="1.5"/>
+
+  <text x="170" y="497" font-size="36" font-weight="700" fill="#1a1a1a">30.8</text>
+  <text x="170" y="519" font-size="13" fill="#666">metric tons of CO&#8322; offset (net of grid emissions)</text>
+  <text x="170" y="537" font-size="11" fill="#999">38.6 tons avoided &#8722; 7.8 tons WA grid = 30.8 net</text>
+
+  <!-- ═══════ DIVIDER ═══════ -->
+  <line x1="180" y1="570" x2="580" y2="570" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="380" y="600" text-anchor="middle" font-size="12" fill="#999" letter-spacing="1.5">WHAT 30.8 TONS LOOKS LIKE</text>
+
+  <!-- ═══════ EQUIVALENCE CARDS ═══════ -->
+  <!-- Card 1: Person years -->
+  <rect x="45" y="620" width="210" height="130" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Person icon -->
+  <circle cx="150" cy="655" r="12" fill="none" stroke="#b07d4f" stroke-width="1.5"/>
+  <line x1="150" y1="667" x2="150" y2="690" stroke="#b07d4f" stroke-width="1.5"/>
+  <line x1="138" y1="678" x2="162" y2="678" stroke="#b07d4f" stroke-width="1.5"/>
+  <text x="150" y="720" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a1a">7 years</text>
+  <text x="150" y="738" text-anchor="middle" font-size="10" fill="#666">of one person's total</text>
+  <text x="150" y="750" text-anchor="middle" font-size="10" fill="#666">carbon footprint</text>
+
+  <!-- Card 2: Trees -->
+  <rect x="275" y="620" width="210" height="130" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Tree icon -->
+  <polygon points="380,645 365,680 395,680" fill="none" stroke="#4a7c59" stroke-width="1.5" stroke-linejoin="round"/>
+  <line x1="380" y1="680" x2="380" y2="693" stroke="#4a7c59" stroke-width="1.5"/>
+  <text x="380" y="720" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a1a">1,240</text>
+  <text x="380" y="738" text-anchor="middle" font-size="10" fill="#666">tree seedlings growing</text>
+  <text x="380" y="750" text-anchor="middle" font-size="10" fill="#666">for 10 years</text>
+
+  <!-- Card 3: Flights -->
+  <rect x="505" y="620" width="210" height="130" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Plane icon -->
+  <path d="M595 660 L610 653 L622 660 L610 660 Z" fill="none" stroke="#888" stroke-width="1.5" stroke-linejoin="round"/>
+  <line x1="610" y1="660" x2="610" y2="670" stroke="#888" stroke-width="1.5"/>
+  <line x1="604" y1="668" x2="616" y2="668" stroke="#888" stroke-width="1.5"/>
+  <text x="610" y="698" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a1a">62</text>
+  <text x="610" y="716" text-anchor="middle" font-size="10" fill="#666">round-trip flights</text>
+  <text x="610" y="728" text-anchor="middle" font-size="10" fill="#666">Seattle &#8594; New York</text>
+
+  <!-- ═══════ EFFICIENCY NOTE ═══════ -->
+  <rect x="45" y="775" width="670" height="65" rx="10" fill="#f5f0eb" stroke="#e0d5c8" stroke-width="1"/>
+  <text x="80" y="800" font-size="11" fill="#666">EFFICIENCY</text>
+  <text x="80" y="823" font-size="13" fill="#1a1a1a">Tesla: <tspan font-weight="600">3.5 mi/kWh</tspan>  &#8594;  Rivians: <tspan font-weight="600">2.2 mi/kWh</tspan>  &#8594;  <tspan fill="#b07d4f" font-weight="600">37% less efficient per mile, but every mile is electric</tspan></text>
+
+  <!-- ═══════ FOOTER ═══════ -->
+  <text x="380" y="875" text-anchor="middle" font-size="10" fill="#bbb">Data as of March 29, 2026  ·  Washington State grid  ·  Well-to-Wheel EPA methodology</text>
+
+</svg>

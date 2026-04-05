@@ -7,13 +7,15 @@ description: "SDM at AWS. Writing about technology, EVs, longevity, and the thin
 
 ![Punit Deotale](/images/profile.png)
 
-I work on Identity and Access Management at AWS. I lead teams that build and ship IAM features used by millions of customers — root access management, multi-factor authentication, credential lifecycle management.
+I'm an environmentalist who can't stop thinking about the future! That tension runs through most of what I do. I'm deeply troubled by how we're dismantling the ecosystems we belong to — we are part of nature, not separate from it, and somewhere along the way we forgot that. At the same time, I'm an eternally hopeful person, especially when it comes to what technology and science can do for us. I love animals, I love reading about science, I'm a huge sci-fi nerd, and I want to be on the cutting edge of whatever comes next!
 
-My role spans the full product lifecycle. I research customer pain points and identify gaps in how developers interact with security systems. I make product decisions on how we position features for long-term adoption. I drive technical architecture and security design. I'm the bridge between product and engineering — comfortable on both sides, wearing whatever hat the project needs.
+That combination — grief for what we're losing, excitement for what we might build — is what drives this site.
+
+By day, I work on Identity and Access Management at AWS. I lead teams that build and ship IAM features used by millions of customers — root access management, multi-factor authentication, credential lifecycle management. My role spans the full product lifecycle: researching customer pain points, making product decisions, driving technical architecture, and bridging the gap between product and engineering.
 
 ## What I believe
 
-I call it **developer-first security**: the principle that the easiest thing to do should also be the secure thing to do. When the secure path is harder than the insecure path, developers take shortcuts — not because they don't care about security, but because the system didn't meet them where they are. That's not a people problem. That's a design problem.
+I call it **developer-first security**: the easiest thing to do should also be the secure thing to do! When the secure path is harder than the insecure path, developers take shortcuts — not because they don't care about security, but because the system didn't meet them where they are. That's not a people problem. That's a design problem!
 
 ## What I write about
 
