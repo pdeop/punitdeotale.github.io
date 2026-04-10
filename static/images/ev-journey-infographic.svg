@@ -1,122 +1,199 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 900" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1080" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
 
   <!-- Background -->
-  <rect width="760" height="900" fill="#fafafa"/>
+  <rect width="800" height="1080" rx="16" fill="#0d1117"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="800" height="4" rx="2" fill="#39d353"/>
 
   <!-- ═══════ HEADER ═══════ -->
-  <text x="380" y="46" text-anchor="middle" font-size="22" font-weight="600" fill="#1a1a1a" letter-spacing="-0.5">3.5 Years. 3 EVs. Zero Gas.</text>
-  <text x="380" y="70" text-anchor="middle" font-size="12" fill="#999" letter-spacing="0.5">AUGUST 2022 — MARCH 2026</text>
+  <text x="400" y="52" text-anchor="middle" font-size="12" fill="#39d353" letter-spacing="4" font-weight="600">IMPACT REPORT</text>
+  <text x="400" y="86" text-anchor="middle" font-size="26" font-weight="700" fill="#e6edf3" letter-spacing="-0.5">3.5 Years of Electric Driving</text>
+  <text x="400" y="110" text-anchor="middle" font-size="12" fill="#8b949e" letter-spacing="1">AUGUST 2022 — MARCH 2026  ·  NORTH BEND, WA</text>
+
+  <!-- ═══════ HERO NUMBER ═══════ -->
+  <text x="400" y="195" text-anchor="middle" font-size="88" font-weight="800" fill="#e6edf3" letter-spacing="-3">30.8</text>
+  <text x="400" y="226" text-anchor="middle" font-size="14" fill="#39d353" letter-spacing="3" font-weight="600">METRIC TONS CO₂ OFFSET</text>
+  <text x="400" y="248" text-anchor="middle" font-size="11" fill="#8b949e">Net of Washington grid emissions (38.6 avoided − 7.8 grid cost)</text>
+
+  <!-- ═══════ THREE STAT CARDS ═══════ -->
+  <!-- Miles -->
+  <rect x="40" y="278" width="225" height="100" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="152" y="318" text-anchor="middle" font-size="38" font-weight="800" fill="#e6edf3">87K</text>
+  <text x="152" y="340" text-anchor="middle" font-size="10" fill="#39d353" letter-spacing="2" font-weight="600">ELECTRIC MILES</text>
+  <text x="152" y="358" text-anchor="middle" font-size="10" fill="#8b949e">across three vehicles</text>
+
+  <!-- Gallons -->
+  <rect x="288" y="278" width="225" height="100" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="400" y="318" text-anchor="middle" font-size="38" font-weight="800" fill="#e6edf3">3,480</text>
+  <text x="400" y="340" text-anchor="middle" font-size="10" fill="#f87171" letter-spacing="2" font-weight="600">GALLONS SAVED</text>
+  <text x="400" y="358" text-anchor="middle" font-size="10" fill="#8b949e">gasoline kept in the ground</text>
+
+  <!-- kWh -->
+  <rect x="536" y="278" width="225" height="100" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="648" y="318" text-anchor="middle" font-size="38" font-weight="800" fill="#e6edf3">33.9K</text>
+  <text x="648" y="340" text-anchor="middle" font-size="10" fill="#a78bfa" letter-spacing="2" font-weight="600">kWh CONSUMED</text>
+  <text x="648" y="358" text-anchor="middle" font-size="10" fill="#8b949e">70%+ hydroelectric grid</text>
+
+  <!-- ═══════ CUMULATIVE CO₂ OFFSET CHART ═══════ -->
+  <text x="60" y="420" font-size="13" font-weight="700" fill="#e6edf3">Cumulative CO₂ Offset Over Time</text>
+  <text x="60" y="438" font-size="10" fill="#8b949e">Metric tons avoided, net of grid emissions</text>
+
+  <!-- Y-axis gridlines -->
+  <line x1="60" y1="455" x2="740" y2="455" stroke="#21262d" stroke-width="1"/>
+  <line x1="60" y1="496" x2="740" y2="496" stroke="#21262d" stroke-width="1"/>
+  <line x1="60" y1="538" x2="740" y2="538" stroke="#21262d" stroke-width="1"/>
+  <line x1="60" y1="579" x2="740" y2="579" stroke="#21262d" stroke-width="1"/>
+  <line x1="60" y1="620" x2="740" y2="620" stroke="#30363d" stroke-width="1"/>
+
+  <text x="52" y="459" text-anchor="end" font-size="9" fill="#484f58">32</text>
+  <text x="52" y="500" text-anchor="end" font-size="9" fill="#484f58">24</text>
+  <text x="52" y="542" text-anchor="end" font-size="9" fill="#484f58">16</text>
+  <text x="52" y="583" text-anchor="end" font-size="9" fill="#484f58">8</text>
+  <text x="52" y="624" text-anchor="end" font-size="9" fill="#484f58">0</text>
+
+  <!-- X-axis labels -->
+  <text x="60"  y="638" text-anchor="start"  font-size="9" fill="#484f58">Aug '22</text>
+  <text x="215" y="638" text-anchor="middle" font-size="9" fill="#484f58">Jun '23</text>
+  <text x="400" y="638" text-anchor="middle" font-size="9" fill="#484f58">Jun '24</text>
+  <text x="585" y="638" text-anchor="middle" font-size="9" fill="#484f58">Jun '25</text>
+  <text x="740" y="638" text-anchor="end"    font-size="9" fill="#484f58">Mar '26</text>
+
+  <!-- Gradient for area fill -->
+  <defs>
+    <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Area fill -->
+  <path d="M60,620 L123,612 L215,594 L308,576 L355,568 L400,553 L461,527 L493,512 L585,481 L740,462 L740,620 Z" fill="url(#areaGrad)"/>
+
+  <!-- Line -->
+  <path d="M60,620 L123,612 L215,594 L308,576 L355,568 L400,553 L461,527 L493,512 L585,481 L740,462" fill="none" stroke="#39d353" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Data points -->
+  <circle cx="60"  cy="620" r="3" fill="#39d353"/>
+  <circle cx="123" cy="612" r="3" fill="#39d353"/>
+  <circle cx="215" cy="594" r="3" fill="#39d353"/>
+  <circle cx="308" cy="576" r="3" fill="#39d353"/>
+  <circle cx="355" cy="568" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5"/>
+  <circle cx="400" cy="553" r="3" fill="#39d353"/>
+  <circle cx="461" cy="527" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5"/>
+  <circle cx="493" cy="512" r="3" fill="#39d353"/>
+  <circle cx="585" cy="481" r="3" fill="#39d353"/>
+  <circle cx="740" cy="462" r="5" fill="#39d353" stroke="#0d1117" stroke-width="2"/>
+
+  <!-- Vehicle arrival annotations -->
+  <line x1="355" y1="568" x2="355" y2="600" stroke="#39d353" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <text x="355" y="612" text-anchor="middle" font-size="8" fill="#39d353" font-weight="600">R1S</text>
+
+  <line x1="461" y1="527" x2="461" y2="600" stroke="#39d353" stroke-width="1" stroke-dasharray="3,2" opacity="0.5"/>
+  <text x="461" y="612" text-anchor="middle" font-size="8" fill="#39d353" font-weight="600">R1T</text>
+
+  <!-- End point label -->
+  <text x="732" y="455" text-anchor="end" font-size="12" font-weight="700" fill="#39d353">30.8t</text>
 
   <!-- ═══════ VEHICLE TIMELINE ═══════ -->
-  <!-- Timeline line -->
-  <line x1="100" y1="130" x2="660" y2="130" stroke="#e0e0e0" stroke-width="2"/>
+  <text x="400" y="680" text-anchor="middle" font-size="10" fill="#484f58" letter-spacing="3">THE VEHICLES</text>
 
-  <!-- Dot 1: Tesla -->
-  <circle cx="140" cy="130" r="8" fill="#888"/>
-  <text x="140" y="118" text-anchor="middle" font-size="10" fill="#999" letter-spacing="0.5">AUG 2022</text>
-  <text x="140" y="155" text-anchor="middle" font-size="11" font-weight="500" fill="#1a1a1a">Tesla Model Y</text>
-  <text x="140" y="170" text-anchor="middle" font-size="10" fill="#666">Performance</text>
+  <!-- Timeline bar -->
+  <rect x="80" y="702" width="640" height="3" rx="1.5" fill="#21262d"/>
 
-  <!-- Dot 2: R1S -->
-  <circle cx="370" cy="130" r="8" fill="#b07d4f"/>
-  <text x="370" y="118" text-anchor="middle" font-size="10" fill="#999" letter-spacing="0.5">MAR 2024</text>
-  <text x="370" y="155" text-anchor="middle" font-size="11" font-weight="500" fill="#1a1a1a">Rivian R1S</text>
-  <text x="370" y="170" text-anchor="middle" font-size="10" fill="#666">Quad Motor</text>
+  <!-- Tesla segment -->
+  <rect x="80" y="702" width="250" height="3" rx="1.5" fill="#8b949e"/>
+  <circle cx="80" cy="703" r="5" fill="#8b949e" stroke="#0d1117" stroke-width="2"/>
+  <text x="80" y="728" font-size="13" font-weight="600" fill="#e6edf3">Tesla Model Y</text>
+  <text x="80" y="744" font-size="10" fill="#8b949e">Performance · 33,000 mi · 3.5 mi/kWh</text>
+  <text x="80" y="758" font-size="9" fill="#484f58">Aug 2022</text>
 
-  <!-- Dot 3: R1T -->
-  <circle cx="540" cy="130" r="8" fill="#4a7c59"/>
-  <text x="540" y="118" text-anchor="middle" font-size="10" fill="#999" letter-spacing="0.5">OCT 2024</text>
-  <text x="540" y="155" text-anchor="middle" font-size="11" font-weight="500" fill="#1a1a1a">Rivian R1T</text>
-  <text x="540" y="170" text-anchor="middle" font-size="10" fill="#666">Daily Driver</text>
+  <!-- R1S segment -->
+  <rect x="330" y="702" width="200" height="3" rx="1.5" fill="#39d353"/>
+  <circle cx="330" cy="703" r="5" fill="#39d353" stroke="#0d1117" stroke-width="2"/>
+  <text x="330" y="728" font-size="13" font-weight="600" fill="#e6edf3">Rivian R1S</text>
+  <text x="330" y="744" font-size="10" fill="#8b949e">Quad · 34,614 mi · 2.2 mi/kWh</text>
+  <text x="330" y="758" font-size="9" fill="#484f58">Mar 2024</text>
 
-  <!-- Dot 4: Today -->
-  <circle cx="660" cy="130" r="8" fill="#1a1a1a" stroke="#b07d4f" stroke-width="2"/>
-  <text x="660" y="118" text-anchor="middle" font-size="10" fill="#b07d4f" font-weight="500" letter-spacing="0.5">TODAY</text>
+  <!-- R1T segment -->
+  <rect x="530" y="702" width="150" height="3" rx="1.5" fill="#6fdd8b"/>
+  <circle cx="530" cy="703" r="5" fill="#6fdd8b" stroke="#0d1117" stroke-width="2"/>
+  <text x="530" y="728" font-size="13" font-weight="600" fill="#e6edf3">Rivian R1T</text>
+  <text x="530" y="744" font-size="10" fill="#8b949e">Dual Perf · 19,358 mi · 2.2 mi/kWh</text>
+  <text x="530" y="758" font-size="9" fill="#484f58">Oct 2024</text>
 
-  <!-- ═══════ BIG NUMBER: MILES ═══════ -->
-  <text x="380" y="240" text-anchor="middle" font-size="72" font-weight="700" fill="#1a1a1a" letter-spacing="-3">87,000</text>
-  <text x="380" y="265" text-anchor="middle" font-size="14" fill="#666" letter-spacing="2">ELECTRIC MILES</text>
+  <!-- Today marker -->
+  <circle cx="720" cy="703" r="5" fill="#0d1117" stroke="#39d353" stroke-width="2"/>
+  <text x="720" y="728" text-anchor="end" font-size="9" fill="#39d353" font-weight="600" letter-spacing="1">NOW</text>
 
-  <!-- Mile breakdown pills -->
-  <rect x="80" y="285" width="180" height="36" rx="18" fill="#f0f0f0" stroke="#ddd" stroke-width="1"/>
-  <circle cx="100" cy="303" r="6" fill="#888"/>
-  <text x="115" y="308" font-size="12" fill="#666">Tesla</text>
-  <text x="230" y="308" text-anchor="end" font-size="13" font-weight="600" fill="#1a1a1a">33,000 mi</text>
+  <!-- ═══════ MONTHLY MILES BAR CHART ═══════ -->
+  <text x="60" y="802" font-size="13" font-weight="700" fill="#e6edf3">Monthly Electric Miles</text>
+  <text x="60" y="818" font-size="10" fill="#8b949e">Average miles driven per month by vehicle</text>
 
-  <rect x="290" y="285" width="180" height="36" rx="18" fill="#f0f0f0" stroke="#ddd" stroke-width="1"/>
-  <circle cx="310" cy="303" r="6" fill="#b07d4f"/>
-  <text x="325" y="308" font-size="12" fill="#666">R1S</text>
-  <text x="440" y="308" text-anchor="end" font-size="13" font-weight="600" fill="#1a1a1a">34,614 mi</text>
+  <!-- Gridlines -->
+  <line x1="60" y1="835" x2="740" y2="835" stroke="#21262d" stroke-width="1"/>
+  <line x1="60" y1="862" x2="740" y2="862" stroke="#21262d" stroke-width="1"/>
+  <line x1="60" y1="890" x2="740" y2="890" stroke="#21262d" stroke-width="1"/>
+  <line x1="60" y1="917" x2="740" y2="917" stroke="#21262d" stroke-width="1"/>
+  <line x1="60" y1="945" x2="740" y2="945" stroke="#30363d" stroke-width="1"/>
 
-  <rect x="500" y="285" width="180" height="36" rx="18" fill="#f0f0f0" stroke="#ddd" stroke-width="1"/>
-  <circle cx="520" cy="303" r="6" fill="#4a7c59"/>
-  <text x="535" y="308" font-size="12" fill="#666">R1T</text>
-  <text x="650" y="308" text-anchor="end" font-size="13" font-weight="600" fill="#1a1a1a">19,358 mi</text>
+  <text x="52" y="839" text-anchor="end" font-size="9" fill="#484f58">4K</text>
+  <text x="52" y="866" text-anchor="end" font-size="9" fill="#484f58">3K</text>
+  <text x="52" y="894" text-anchor="end" font-size="9" fill="#484f58">2K</text>
+  <text x="52" y="921" text-anchor="end" font-size="9" fill="#484f58">1K</text>
+  <text x="52" y="949" text-anchor="end" font-size="9" fill="#484f58">0</text>
 
-  <!-- ═══════ DIVIDER ═══════ -->
-  <line x1="180" y1="350" x2="580" y2="350" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Era 1: Tesla only — gray bars -->
+  <rect x="82"  y="903.75" width="32" height="41.25"  rx="3" fill="#8b949e" opacity="0.5"/>
+  <rect x="130" y="895.5"  width="32" height="49.5"   rx="3" fill="#8b949e" opacity="0.5"/>
+  <rect x="178" y="890"    width="32" height="55"     rx="3" fill="#8b949e" opacity="0.5"/>
+  <rect x="226" y="892.25" width="32" height="52.75"  rx="3" fill="#8b949e" opacity="0.5"/>
+  <rect x="274" y="895.5"  width="32" height="49.5"   rx="3" fill="#8b949e" opacity="0.5"/>
 
-  <!-- ═══════ GAS SAVED SECTION ═══════ -->
-  <!-- Gas pump icon (simplified) -->
-  <rect x="90" y="380" width="44" height="52" rx="6" fill="none" stroke="#cc4444" stroke-width="2"/>
-  <rect x="98" y="390" width="28" height="16" rx="2" fill="#cc4444" opacity="0.15"/>
-  <line x1="134" y1="395" x2="148" y2="385" stroke="#cc4444" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="148" cy="383" r="3" fill="none" stroke="#cc4444" stroke-width="2"/>
+  <!-- Era 2: Tesla + R1S — green bars -->
+  <rect x="322" y="879.5" width="32" height="65.5"  rx="3" fill="#39d353" opacity="0.5"/>
+  <rect x="370" y="868.5" width="32" height="76.5"  rx="3" fill="#39d353" opacity="0.6"/>
+  <rect x="418" y="862.5" width="32" height="82.5"  rx="3" fill="#39d353" opacity="0.7"/>
 
-  <text x="170" y="400" font-size="36" font-weight="700" fill="#1a1a1a">3,480</text>
-  <text x="170" y="422" font-size="13" fill="#666">gallons of gasoline kept in the ground</text>
-  <text x="170" y="440" font-size="11" fill="#999">vs. a 25 MPG SUV over the same distance</text>
+  <!-- Era 3: All three — bright green bars -->
+  <rect x="466" y="857"   width="32" height="88"    rx="3" fill="#39d353" opacity="0.75"/>
+  <rect x="514" y="848.75" width="32" height="96.25" rx="3" fill="#39d353" opacity="0.8"/>
+  <rect x="562" y="841.5" width="32" height="103.5" rx="3" fill="#39d353" opacity="0.85"/>
+  <rect x="610" y="846"   width="32" height="99"    rx="3" fill="#39d353" opacity="0.9"/>
+  <rect x="658" y="838.25" width="32" height="106.75" rx="3" fill="#39d353"/>
 
-  <!-- ═══════ CO2 SECTION ═══════ -->
-  <!-- Leaf/earth icon -->
-  <circle cx="112" cy="500" r="24" fill="#4a7c59" opacity="0.1" stroke="#4a7c59" stroke-width="1.5"/>
-  <path d="M104 510 Q112 485 120 510" fill="none" stroke="#4a7c59" stroke-width="2" stroke-linecap="round"/>
-  <line x1="112" y1="495" x2="112" y2="515" stroke="#4a7c59" stroke-width="1.5"/>
+  <!-- Bar chart x-axis labels -->
+  <text x="98"  y="960" text-anchor="middle" font-size="8" fill="#484f58">Q4'22</text>
+  <text x="194" y="960" text-anchor="middle" font-size="8" fill="#484f58">Q2'23</text>
+  <text x="290" y="960" text-anchor="middle" font-size="8" fill="#484f58">Q4'23</text>
+  <text x="386" y="960" text-anchor="middle" font-size="8" fill="#484f58">Q2'24</text>
+  <text x="482" y="960" text-anchor="middle" font-size="8" fill="#484f58">Q4'24</text>
+  <text x="578" y="960" text-anchor="middle" font-size="8" fill="#484f58">Q2'25</text>
+  <text x="674" y="960" text-anchor="middle" font-size="8" fill="#484f58">Q1'26</text>
 
-  <text x="170" y="497" font-size="36" font-weight="700" fill="#1a1a1a">30.8</text>
-  <text x="170" y="519" font-size="13" fill="#666">metric tons of CO&#8322; offset (net of grid emissions)</text>
-  <text x="170" y="537" font-size="11" fill="#999">38.6 tons avoided &#8722; 7.8 tons WA grid = 30.8 net</text>
+  <!-- Legend -->
+  <rect x="560" y="800" width="10" height="10" rx="2" fill="#8b949e" opacity="0.5"/>
+  <text x="575" y="809" font-size="9" fill="#8b949e">Tesla only</text>
+  <rect x="640" y="800" width="10" height="10" rx="2" fill="#39d353"/>
+  <text x="655" y="809" font-size="9" fill="#8b949e">+ Rivians</text>
 
-  <!-- ═══════ DIVIDER ═══════ -->
-  <line x1="180" y1="570" x2="580" y2="570" stroke="#e0e0e0" stroke-width="1"/>
-  <text x="380" y="600" text-anchor="middle" font-size="12" fill="#999" letter-spacing="1.5">WHAT 30.8 TONS LOOKS LIKE</text>
+  <!-- ═══════ EQUIVALENCE ROW ═══════ -->
+  <line x1="60" y1="985" x2="740" y2="985" stroke="#21262d" stroke-width="1"/>
+  <text x="400" y="1010" text-anchor="middle" font-size="10" fill="#484f58" letter-spacing="3">WHAT 30.8 TONS LOOKS LIKE</text>
 
-  <!-- ═══════ EQUIVALENCE CARDS ═══════ -->
-  <!-- Card 1: Person years -->
-  <rect x="45" y="620" width="210" height="130" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
-  <!-- Person icon -->
-  <circle cx="150" cy="655" r="12" fill="none" stroke="#b07d4f" stroke-width="1.5"/>
-  <line x1="150" y1="667" x2="150" y2="690" stroke="#b07d4f" stroke-width="1.5"/>
-  <line x1="138" y1="678" x2="162" y2="678" stroke="#b07d4f" stroke-width="1.5"/>
-  <text x="150" y="720" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a1a">7 years</text>
-  <text x="150" y="738" text-anchor="middle" font-size="10" fill="#666">of one person's total</text>
-  <text x="150" y="750" text-anchor="middle" font-size="10" fill="#666">carbon footprint</text>
+  <!-- 7 person-years -->
+  <text x="152" y="1040" text-anchor="middle" font-size="30" font-weight="800" fill="#e6edf3">7</text>
+  <text x="152" y="1058" text-anchor="middle" font-size="9" fill="#39d353" letter-spacing="1" font-weight="600">PERSON-YEARS</text>
 
-  <!-- Card 2: Trees -->
-  <rect x="275" y="620" width="210" height="130" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
-  <!-- Tree icon -->
-  <polygon points="380,645 365,680 395,680" fill="none" stroke="#4a7c59" stroke-width="1.5" stroke-linejoin="round"/>
-  <line x1="380" y1="680" x2="380" y2="693" stroke="#4a7c59" stroke-width="1.5"/>
-  <text x="380" y="720" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a1a">1,240</text>
-  <text x="380" y="738" text-anchor="middle" font-size="10" fill="#666">tree seedlings growing</text>
-  <text x="380" y="750" text-anchor="middle" font-size="10" fill="#666">for 10 years</text>
+  <!-- 1,240 trees -->
+  <text x="400" y="1040" text-anchor="middle" font-size="30" font-weight="800" fill="#e6edf3">1,240</text>
+  <text x="400" y="1058" text-anchor="middle" font-size="9" fill="#39d353" letter-spacing="1" font-weight="600">TREES · 10 YRS</text>
 
-  <!-- Card 3: Flights -->
-  <rect x="505" y="620" width="210" height="130" rx="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
-  <!-- Plane icon -->
-  <path d="M595 660 L610 653 L622 660 L610 660 Z" fill="none" stroke="#888" stroke-width="1.5" stroke-linejoin="round"/>
-  <line x1="610" y1="660" x2="610" y2="670" stroke="#888" stroke-width="1.5"/>
-  <line x1="604" y1="668" x2="616" y2="668" stroke="#888" stroke-width="1.5"/>
-  <text x="610" y="698" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a1a">62</text>
-  <text x="610" y="716" text-anchor="middle" font-size="10" fill="#666">round-trip flights</text>
-  <text x="610" y="728" text-anchor="middle" font-size="10" fill="#666">Seattle &#8594; New York</text>
-
-  <!-- ═══════ EFFICIENCY NOTE ═══════ -->
-  <rect x="45" y="775" width="670" height="65" rx="10" fill="#f5f0eb" stroke="#e0d5c8" stroke-width="1"/>
-  <text x="80" y="800" font-size="11" fill="#666">EFFICIENCY</text>
-  <text x="80" y="823" font-size="13" fill="#1a1a1a">Tesla: <tspan font-weight="600">3.5 mi/kWh</tspan>  &#8594;  Rivians: <tspan font-weight="600">2.2 mi/kWh</tspan>  &#8594;  <tspan fill="#b07d4f" font-weight="600">37% less efficient per mile, but every mile is electric</tspan></text>
+  <!-- 62 flights -->
+  <text x="648" y="1040" text-anchor="middle" font-size="30" font-weight="800" fill="#e6edf3">62</text>
+  <text x="648" y="1058" text-anchor="middle" font-size="9" fill="#39d353" letter-spacing="1" font-weight="600">FLIGHTS SEA→NYC</text>
 
   <!-- ═══════ FOOTER ═══════ -->
-  <text x="380" y="875" text-anchor="middle" font-size="10" fill="#bbb">Data as of March 29, 2026  ·  Washington State grid  ·  Well-to-Wheel EPA methodology</text>
+  <text x="400" y="1076" text-anchor="middle" font-size="9" fill="#30363d">Data as of March 29, 2026  ·  Washington State grid (70%+ hydro)  ·  Well-to-Wheel EPA methodology</text>
 
 </svg>

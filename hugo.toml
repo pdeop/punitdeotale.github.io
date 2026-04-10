@@ -16,7 +16,7 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 ShowToc = false
-defaultTheme = "light"
+defaultTheme = "dark"
 disableThemeToggle = true
 
   [params.homeInfoParams]
@@ -59,6 +59,9 @@ weight = 5
 [taxonomies]
 tag = "tags"
 category = "categories"
+
+[markup.goldmark.renderer]
+unsafe = true
 
 [markup.highlight]
 style = "github"

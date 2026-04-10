@@ -1,20 +1,23 @@
 /* ========================================
-   Punit Deotale — Custom Theme Override
-   Light, refined, minimal with intention
+   Punit Deotale — Cyberpunk/Tech Theme
+   Dark navy + neon green + purple accents
+   Matches the AI portrait energy
    ======================================== */
 
 /* --- Color System --- */
 :root {
-  --theme: #ffffff;
-  --entry: #f9f9f9;
-  --primary: #1a1a1a;
-  --secondary: #666666;
-  --tertiary: #f4f4f4;
-  --content: #333333;
-  --hljs-bg: #f6f6f6;
-  --code-bg: #f6f6f6;
-  --border: #e0e0e0;
-  --accent: #b07d4f; /* warm muted gold — distinctive, not loud */
+  --theme: #0d1117;
+  --entry: #161b22;
+  --primary: #e6edf3;
+  --secondary: #8b949e;
+  --tertiary: #1c2129;
+  --content: #c9d1d9;
+  --hljs-bg: #161b22;
+  --code-bg: #161b22;
+  --border: #30363d;
+  --accent: #39d353;         /* neon green — primary accent */
+  --accent-secondary: #a78bfa; /* soft purple — secondary accent */
+  --glow: rgba(57, 211, 83, 0.15);
 }
 
 /* --- Typography --- */
@@ -25,19 +28,22 @@ body {
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #ffffff;
+  background: var(--theme);
+  color: var(--content);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   letter-spacing: -0.02em;
   line-height: 1.3;
+  color: var(--primary);
 }
 
 .post-title {
   font-size: 2.2rem;
   font-weight: 600;
   letter-spacing: -0.03em;
+  color: var(--primary);
 }
 
 .post-content h2 {
@@ -53,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 2rem;
 }
 
-/* Body text refinement */
+/* Body text */
 .post-content p {
   font-size: 1.05rem;
   line-height: 1.8;
@@ -88,7 +94,7 @@ header .logo a {
 
 /* Active menu indicator */
 #menu .active {
-  color: var(--primary);
+  color: var(--accent);
   border-bottom: 1px solid var(--accent);
   padding-bottom: 2px;
 }
@@ -111,6 +117,7 @@ header .logo a {
   font-weight: 600;
   letter-spacing: -0.03em;
   margin-bottom: 0.5rem;
+  color: var(--primary);
 }
 
 /* Social icons */
@@ -168,21 +175,22 @@ header .logo a {
   margin: 0 auto;
 }
 
-/* Links */
+/* Links — neon green */
 .post-content a {
   color: var(--accent);
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease, text-shadow 0.2s ease;
 }
 
 .post-content a:hover {
   border-bottom-color: var(--accent);
+  text-shadow: 0 0 8px var(--glow);
 }
 
-/* Blockquotes */
+/* Blockquotes — purple accent */
 .post-content blockquote {
-  border-left: 2px solid var(--accent);
+  border-left: 2px solid var(--accent-secondary);
   padding-left: 1.2rem;
   color: var(--secondary);
   font-style: italic;
@@ -196,6 +204,7 @@ header .logo a {
   padding: 0.15em 0.4em;
   border-radius: 3px;
   border: 1px solid var(--border);
+  color: var(--accent);
 }
 
 /* Bold text */
@@ -212,6 +221,11 @@ header .logo a {
 .post-content li {
   margin-bottom: 0.5rem;
   color: var(--content);
+}
+
+/* Bullet color override */
+.post-content ul li::marker {
+  color: var(--accent);
 }
 
 /* HR dividers */
@@ -237,6 +251,14 @@ header .logo a {
   color: var(--secondary);
 }
 
+.breadcrumbs a {
+  color: var(--secondary);
+}
+
+.breadcrumbs a:hover {
+  color: var(--accent);
+}
+
 /* --- Post Navigation --- */
 .paginav {
   border-top: 1px solid var(--border);
@@ -252,13 +274,13 @@ header .logo a {
   color: var(--accent);
 }
 
-/* --- Selection color --- */
+/* --- Selection color — neon green --- */
 ::selection {
   background: var(--accent);
-  color: #ffffff;
+  color: var(--theme);
 }
 
-/* --- Scroll bar (subtle) --- */
+/* --- Scroll bar --- */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -276,36 +298,22 @@ header .logo a {
   background: var(--secondary);
 }
 
-/* --- Reading time — subtle --- */
+/* --- Reading time --- */
 .post-meta .reading-time {
   opacity: 0.7;
 }
 
-/* --- Responsive refinements --- */
-@media (max-width: 768px) {
-  .post-title {
-    font-size: 1.6rem;
-  }
-
-  .post-content p {
-    font-size: 1rem;
-  }
-
-  .home-info h1 {
-    font-size: 1.6rem;
-  }
-}
-
 /* --- About page profile photo --- */
 .post-content img[alt="Punit Deotale"] {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   object-position: top;
   float: right;
   margin: 0 0 1.5rem 2rem;
-  border: 2px solid var(--border);
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 20px var(--glow), 0 0 40px rgba(57, 211, 83, 0.05);
 }
 
 @media (max-width: 768px) {
@@ -316,34 +324,13 @@ header .logo a {
   }
 }
 
-/* --- Remove any PaperMod box shadows --- */
+/* --- Remove PaperMod box shadows --- */
 .post-entry,
 .first-entry {
   box-shadow: none;
 }
 
-/* --- Fix list page spacing --- */
-.main .list-page .post-entry {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid var(--border);
-  border-radius: 0;
-  padding: 1.2rem 0;
-  margin: 0;
-}
-
-/* Remove excessive top margin on section pages */
-.main .list-page header {
-  margin-bottom: 1rem;
-}
-
-/* Tighten archive/list title */
-.list-page .term-title,
-.list-page header h1 {
-  margin-bottom: 0.5rem;
-}
-
-/* Post entries on list pages — no card style */
+/* --- Post entries — dark card style --- */
 .post-entry {
   background: transparent !important;
   border-radius: 0 !important;
@@ -373,12 +360,13 @@ header .logo a {
   border-radius: 6px;
   background: var(--entry);
   text-decoration: none;
-  transition: border-color 0.2s ease, background 0.2s ease;
+  transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
 }
 
 .category-card:hover {
   border-color: var(--accent);
   background: var(--tertiary);
+  box-shadow: 0 0 12px var(--glow);
 }
 
 .category-card-title {
@@ -404,7 +392,7 @@ header .logo a {
   opacity: 0.7;
 }
 
-/* --- Page header for Topics page --- */
+/* --- Page header --- */
 .page-header {
   margin-bottom: 1rem;
 }
@@ -422,11 +410,118 @@ header .logo a {
   margin-top: 0;
 }
 
-/* --- Category badge on post entries --- */
+/* --- Category badge --- */
 .post-meta .category-badge {
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--accent);
   opacity: 0.9;
+}
+
+/* --- Cover images — subtle glow on hover --- */
+.entry-cover img {
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.entry-cover img:hover {
+  box-shadow: 0 0 20px var(--glow);
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .post-title {
+    font-size: 1.6rem;
+  }
+
+  .post-content p {
+    font-size: 1rem;
+  }
+
+  .home-info h1 {
+    font-size: 1.6rem;
+  }
+}
+
+/* --- Fix list page spacing --- */
+.main .list-page .post-entry {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  padding: 1.2rem 0;
+  margin: 0;
+}
+
+.main .list-page header {
+  margin-bottom: 1rem;
+}
+
+.list-page .term-title,
+.list-page header h1 {
+  margin-bottom: 0.5rem;
+}
+
+/* --- Photo Collage — flexbox, no cropping --- */
+.photo-collage {
+  display: flex;
+  gap: 6px;
+  margin: 1.5rem 0;
+  align-items: flex-start;
+}
+
+.photo-collage .photo-item {
+  flex: 1;
+  min-width: 0;
+}
+
+.photo-collage img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  transition: opacity 0.2s ease;
+}
+
+.photo-collage img:hover {
+  opacity: 0.9;
+}
+
+.photo-collage .caption {
+  font-size: 0.78rem;
+  color: var(--secondary);
+  text-align: center;
+  padding: 0.3rem 0.2rem 0;
+  line-height: 1.3;
+}
+
+/* Single captioned photo — smaller than full width */
+.photo-single {
+  margin: 1.5rem auto;
+  max-width: 85%;
+}
+
+.photo-single img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.photo-single .caption {
+  font-size: 0.78rem;
+  color: var(--secondary);
+  text-align: center;
+  padding: 0.4rem 0 0;
+  line-height: 1.3;
+}
+
+@media (max-width: 600px) {
+  .photo-collage {
+    flex-direction: column;
+  }
+  .photo-single {
+    max-width: 100%;
+  }
 }

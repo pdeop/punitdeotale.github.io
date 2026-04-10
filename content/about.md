@@ -5,17 +5,23 @@ draft: false
 description: "SDM at AWS. Writing about technology, EVs, longevity, and the things I'm building."
 ---
 
-![Punit Deotale](/images/profile.png)
+![Punit Deotale](/images/punit_ai.jpg)
 
-I'm an environmentalist who can't stop thinking about the future! That tension runs through most of what I do. I'm deeply troubled by how we're dismantling the ecosystems we belong to — we are part of nature, not separate from it, and somewhere along the way we forgot that. At the same time, I'm an eternally hopeful person, especially when it comes to what technology and science can do for us. I love animals, I love reading about science, I'm a huge sci-fi nerd, and I want to be on the cutting edge of whatever comes next!
+I'm an environmentalist who is deeply troubled by how we are destroying our planet and the ecosystems we belong to. We are one with nature — we are part of it, not separate from it — and somewhere along the way our species moved so far away from our place on this incredible planet. That keeps me up at night!
 
-That combination — grief for what we're losing, excitement for what we might build — is what drives this site.
+But I'm also an eternally romantic, hopeful person. Especially around tech and humanity's future! I love animals, I love science, I'm a huge sci-fi nerd, and I want to be on the cutting edge of whatever comes next. I can't help it — I read about a breakthrough in mRNA vaccines or CRISPR gene editing or a new EV that can do 300 miles in a snowstorm and I think, man, we might actually figure this out!!
+
+That combination — grief for what we're losing, excitement for what we might build — is what drives everything I do. This site is where those worlds collide.
 
 By day, I work on Identity and Access Management at AWS. I lead teams that build and ship IAM features used by millions of customers — root access management, multi-factor authentication, credential lifecycle management. My role spans the full product lifecycle: researching customer pain points, making product decisions, driving technical architecture, and bridging the gap between product and engineering.
 
 ## What I believe
 
-I call it **developer-first security**: the easiest thing to do should also be the secure thing to do! When the secure path is harder than the insecure path, developers take shortcuts — not because they don't care about security, but because the system didn't meet them where they are. That's not a people problem. That's a design problem!
+I believe technology should meet people where they are, not the other way around! Whether it's a developer trying to set up IAM permissions, or someone trying to go electric for the first time, or a patient trying to understand their health data — if the system makes the right thing harder than the wrong thing, that's a design failure, not a people failure!
+
+In my work at AWS, I call this **developer-first security**: the easiest path should be the secure path. But the principle is bigger than IAM. It applies to everything — EVs should be easier to live with than gas cars. Health information should be accessible, not locked behind jargon. Technology should amplify human capability, not gatekeep it!
+
+I'm a big believer that the next few decades are going to be transformative for humanity. mRNA, CRISPR, AI, clean energy — we are living through an inflection point! I'm very hopeful for what's ahead, and I want to be part of building it.
 
 ## What I write about
 

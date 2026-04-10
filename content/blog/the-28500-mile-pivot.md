@@ -45,9 +45,10 @@ In August 2022, I'd recently moved to Washington for my job at Amazon. Pacific N
 
 Man, I loved that car! The instant torque, the tech, the silence. The only thing I didn't love was the harsh ride, which I fixed a little by swapping to all-terrain tires on 18-inch wheels. Meanwhile, the Acura RDX just sat in the driveway. I loved that car too, but after the Tesla arrived it barely moved. It was the gas-powered safety net I told myself I still needed for snow runs or hauling gear. It was also the thing keeping me from being able to say my household was fully electric!
 
-![The Performance Model Y in North Bend, Mt. Si in the background](/images/ev-journey/tesla-cherry-blossoms.jpg)
-
-![Korra approved of the Tesla too](/images/ev-journey/tesla-korra-snow.jpg)
+<div class="photo-collage">
+  <div class="photo-item"><img src="/images/ev-journey/tesla-cherry-blossoms.jpg" alt="The Performance Model Y in North Bend, Mt. Si in the background"><div class="caption">North Bend, Mt. Si in the background</div></div>
+  <div class="photo-item"><img src="/images/ev-journey/tesla-korra-snow.jpg" alt="Korra approved of the Tesla too"><div class="caption">Korra approved</div></div>
+</div>
 
 ## The Comfort Problem
 
@@ -57,7 +58,10 @@ We wanted something bigger. Something more comfortable. Something that didn't ma
 
 In March 2024, I traded the Acura for the R1S. Black. Quad motor. That was the moment the driveway went fully electric — no more gas vehicles, period! Then in October 2024, I traded the Model Y — 33,000 miles on the odometer — for a Green R1T as my daily driver. Two Rivians. Zero gas. What a time to be alive!!
 
-![Two Rivians, zero gas](/images/ev-journey/rivians-snow-collage.jpg)
+<div class="photo-single">
+  <img src="/images/ev-journey/rivians-snow-collage.jpg" alt="Two Rivians, zero gas">
+  <div class="caption">Two Rivians, zero gas</div>
+</div>
 
 ## The Efficiency Tradeoff
 
@@ -69,17 +73,20 @@ These aren't garage queens! The Tesla took us to Portland twice and up to Vancou
 
 The R1T handled an Oregon coast trip without breaking a sweat. And the R1S — oh man, the R1S Quad is the best car I've ever owned, full stop! It checks every single box. We took it on two epic road trips to Denver and back — 2,400 miles round-trip through the Rockies with Korra in the back seat! One of those trips was in the dead of winter through actual snowstorms. Whiteout conditions on I-70, and the R1S just powered through like it was built for exactly that moment. Because it was!!
 
-![The R1T on the Oregon coast](/images/ev-journey/r1t-oregon-coast.jpg)
-
-![The R1S somewhere in the Rockies](/images/ev-journey/r1s-rear-canyon.jpg)
-
-![Charging stop on the Denver run](/images/ev-journey/r1s-charging-sunset.jpg)
+<div class="photo-collage">
+  <div class="photo-item"><img src="/images/ev-journey/r1t-oregon-coast.jpg" alt="The R1T on the Oregon coast"><div class="caption">R1T, Oregon coast</div></div>
+  <div class="photo-item"><img src="/images/ev-journey/r1s-rear-canyon.jpg" alt="The R1S somewhere in the Rockies"><div class="caption">R1S in the Rockies</div></div>
+  <div class="photo-item"><img src="/images/ev-journey/r1s-charging-sunset.jpg" alt="Charging stop on the Denver run"><div class="caption">Charging at sunset</div></div>
+</div>
 
 Each of those road trips deserves its own post — the charging stops, the route planning, the moments where you're wondering if the next charger is actually online. Those posts are coming! And speaking of road trips and electric adventure — I've been working on something. More on that soon.
 
 I cannot get enough of this machine! I loved the BMW X5, I loved the Tesla, but the R1S is something different. It's the first vehicle I've owned where I never think about what it can't do.
 
-![The R1S at red rocks — it looks like it belongs here](/images/ev-journey/r1s-red-rocks.jpg)
+<div class="photo-single">
+  <img src="/images/ev-journey/r1s-red-rocks.jpg" alt="The R1S at red rocks — it looks like it belongs here">
+  <div class="caption">The R1S at Red Rocks — it looks like it belongs here</div>
+</div>
 
 Before the Rivians, I needed the Acura as a gas backup for anything the Tesla couldn't handle. The Rivians eliminated that entirely. Less efficient per mile, but every single mile is electric. That's the tradeoff, and I'd make it again in a heartbeat!
 
