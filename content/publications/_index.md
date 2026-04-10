@@ -34,11 +34,4 @@ P. Deotale, S.-J. Hsieh
 
 ## Industry publications & coverage
 
-My work at AWS has been covered in the following publications and venues:
-
-- **AWS News Blog** (Jeff Barr) — Coverage of Centralized Root Access Management, Passkey MFA, and IAM Access Analyzer features
-- **AWS Security Blog** — Technical deep dives on IAM features and security best practices
-- **Amazon Science** — Research publication on IAM Access Analyzer policy recommendations
-- **InfoQ** — Industry coverage of AWS IAM innovations
-- **CIS Benchmarks** — Work referenced in Center for Internet Security cloud benchmarks
-- **AWS Well-Architected Framework** — Contributions to security pillar best practices
+Coming soon.
