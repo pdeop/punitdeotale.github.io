@@ -38,12 +38,6 @@ Browse by topic on the [Topics](/categories/) page, or see everything on the [Bl
 
 I worked at DISH on enterprise automation systems, where I earned a "Best in Class" award for contributions to their platform.
 
-## Research & publications
-
-I've published peer-reviewed research through the American Society for Engineering Education (ASEE). My work at AWS has been referenced in the AWS Security Blog and industry coverage from outlets like InfoQ.
-
-Full publication list on the [Publications](/publications/) page, or find me on [Google Scholar](https://scholar.google.com/citations?user=Xl2GSWEAAAAJ).
-
 ## Get in touch
 
 - [LinkedIn](https://www.linkedin.com/in/punitdeotale/)
