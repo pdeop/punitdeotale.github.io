@@ -10,17 +10,17 @@ categories:
   - My Work
 author: Punit Deotale
 ---
-I've always felt like I have a lot to say. Like there are all these opinions and thoughts bouncing around in my head that need to go somewhere. I think about a lot of things, probably too many things, and I follow a lot of passions, sometimes all at once. For years I've wanted to channel all of that through some kind of medium, and writing always felt like the right one.
+I've always felt like I have a lot to say. Like there are all these opinions and thoughts bouncing around in my head that need to go somewhere. I think about a lot of things, probably too many things, and I follow a lot of passions, sometimes all at once. For years I've wanted to channel all of that through some kind of medium, and writing always felt like the right one. 
 
-But here's what held me back. I don't want to be another generic voice on the internet! There are a million blogs out there that all sound the same, saying the same things the same way. That's not what this is. This is me thinking out loud about the stuff I actually care about, in my actual voice, with my actual opinions. If that resonates with you, amazing. If not, that's cool too!
+But something held me back. I'd hate to be another generic voice on the internet! There are a million blogs out there that all sound the same, saying the same things the same way. I would like to keep this Blog to be an echo of my personality more than anything else. 
 
-So what do I actually care about? A lot!!
-
-**Living life, and living longer.** I'm fascinated by longevity science, metabolic health, the idea that we can extend not just how long we live but how well we live. I read everything I can get my hands on about this.
+On a daily basis, these are the things I think about:
 
 **Technology and the future.** I'm an eternal optimist about what tech can do for humanity. AI, clean energy, biotech. I think we're living through one of the most transformative periods in human history and most people don't even realize it!
 
 **Cars, especially EVs.** I'm a car guy who went fully electric. Two Rivians in the driveway, 87,000 electric miles and counting, 31 tons of carbon kept out of the sky. I have a lot of thoughts about the EV transition and I've lived it firsthand.
+
+**Living life, and living longer.** I'm fascinated by longevity science, metabolic health, the idea that we can extend not just how long we live but how well we live. I read everything I can get my hands on about this.
 
 **The outdoors.** I'm an environmentalist at my core. We are part of nature, not separate from it, and the fact that we're destroying the ecosystems we belong to keeps me up at night. But I'm also hopeful because the technology to fix this is here!
 
