@@ -4,8 +4,6 @@ draft: false
 description: "Peer-reviewed research papers and technical publications by Punit Deotale"
 ---
 
-# Publications
-
 ## Peer-reviewed research
 
 **Design of Problem Solving Environment for Automated System Integration Education**

@@ -5,7 +5,7 @@ draft: true
 description: "After decades of trying to kill the password, FIDO2 and passkeys might actually succeed. But the transition won't be as smooth as anyone hopes."
 tags: ["authentication", "fido2", "passkeys", "security", "developer-experience"]
 categories: ["Technology"]
-author: "Punit Deotale"
+authors: ["punit-deotale"]
 ---
 
 We've been trying to kill the password for twenty years! Every few years, a new technology promises to finally do it — biometrics, smart cards, one-time codes, push notifications. Each one nibbles at the edges but never lands the killing blow. Passwords are the cockroaches of the security world!

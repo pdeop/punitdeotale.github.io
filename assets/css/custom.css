@@ -1,0 +1,66 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body, html {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+/* Header logo as rounded thumbnail */
+.logo {
+  border-radius: 50%;
+}
+
+/* Photo collage layouts */
+.photo-collage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.photo-collage .photo-item {
+  flex: 1 1 280px;
+  max-width: 100%;
+}
+
+.photo-collage .photo-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.photo-single {
+  margin: 2rem 0;
+}
+
+.photo-single img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.caption {
+  text-align: center;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Infographic sizing */
+.infographic-container {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.infographic-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

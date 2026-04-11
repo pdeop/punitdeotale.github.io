@@ -5,7 +5,7 @@ draft: false
 description: "IAM is the single biggest source of friction in cloud adoption. After years of building identity systems at AWS, here's what I think we're getting wrong."
 tags: ["iam", "cloud-security", "developer-experience", "aws"]
 categories: ["Technology"]
-author: "Punit Deotale"
+authors: ["punit-deotale"]
 ---
 
 Every developer I've talked to has the same story. They're setting up something on AWS. An EC2 instance, a Lambda function, an ECS task. They get to the part where it asks for an IAM role. They don't have one. So they open the IAM console in another tab, spend ten minutes trying to figure out what permissions they need, give up, paste a wildcard policy, and move on.

@@ -5,7 +5,7 @@ draft: false
 description: "I've always had a lot to say. This is my attempt to finally say it."
 tags: ["personal", "writing"]
 categories: ["My Work"]
-author: "Punit Deotale"
+authors: ["punit-deotale"]
 ---
 
 I've always felt like I have a lot to say. Like there are all these opinions and thoughts bouncing around in my head that need to go somewhere. I think about a lot of things, probably too many things, and I follow a lot of passions, sometimes all at once. For years I've wanted to channel all of that through some kind of medium, and writing always felt like the right one.

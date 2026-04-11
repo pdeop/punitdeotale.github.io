@@ -1,0 +1,24 @@
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 10
+
+[[main]]
+  name = "Topics"
+  pageRef = "categories"
+  weight = 20
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 30
+
+[[main]]
+  name = "Publications"
+  pageRef = "publications"
+  weight = 40
+
+[[main]]
+  name = "Talks"
+  pageRef = "talks"
+  weight = 50

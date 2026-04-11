@@ -1,0 +1,10 @@
+{
+  "name": "Punit Deotale",
+  "image": "images/punit_ai.jpg",
+  "bio": "SDM at AWS IAM",
+  "social": [
+    { "linkedin": "https://www.linkedin.com/in/punitdeotale/" },
+    { "github": "https://github.com/pdeop" },
+    { "google-scholar": "https://scholar.google.com/citations?user=Xl2GSWEAAAAJ" }
+  ]
+}

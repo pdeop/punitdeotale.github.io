@@ -5,10 +5,9 @@ draft: false
 description: "Three and a half years, three EVs, 87,000 miles, and 31 metric tons of CO2 kept out of the sky. The story of going from a Tesla commuter to a dual-Rivian household in the Cascades."
 tags: ["ev", "sustainability", "rivian", "tesla", "carbon-offset"]
 categories: ["Electric Vehicles"]
-author: "Punit Deotale"
-cover:
-    image: "/images/ev-journey/rivians-together-mountains.jpg"
-    alt: "Rivian R1S and R1T parked together with mountain backdrop"
+authors: ["punit-deotale"]
+showHero: true
+heroStyle: "big"
 ---
 
 87,000 miles. Three EVs. Three and a half years. All electric.
@@ -37,11 +36,11 @@ That's the argument for going electric that nobody makes loudly enough. It's not
 
 So how did I get here?
 
-## A Car Guy Goes Electric
+## ICE to Electric
 
-I need to confess something. I love cars! Always have. I've owned several ICE vehicles over the years and my absolute favorite was a 2013 BMW X5. That thing had presence! This isn't the story of some person who never cared about driving. This is a car guy who cared a lot, and decided to care about something bigger.
+I love cars! Always have. I've owned several ICE vehicles over the years and my absolute favorite was a 2013 BMW X5. That thing had presence! I may write a blog post about all my cars someday - It's not like I had Jay Leno's garage lol, just something personal to me.
 
-In August 2022, I'd recently moved to Washington for my job at Amazon. Pacific Northwest was the new home, I had a 60-mile round-trip commute from North Bend to Seattle down I-90, and I was finally making enough money to buy something fancy. It felt like the right time to try the electric life! The only real mass-market option at the time was the Tesla Model Y, so I got the Performance model. Black, fast, and ruthlessly efficient at 3.5 mi/kWh.
+In August 2022, I'd recently moved to Washington for my job at Amazon. Pacific Northwest was the new home, I had a 60-mile round-trip commute from North Bend to Seattle down I-90, and it felt like the right time to try the electric life! The only real good option at the time was the Tesla Model Y, so I got the Performance model. Black, fast, and ruthlessly efficient at 3.5 mi/kWh.
 
 Man, I loved that car! The instant torque, the tech, the silence. The only thing I didn't love was the harsh ride, which I fixed a little by swapping to all-terrain tires on 18-inch wheels. Meanwhile, the Acura RDX just sat in the driveway. I loved that car too, but after the Tesla arrived it barely moved. It was the gas-powered safety net I told myself I still needed for snow runs or hauling gear. It was also the thing keeping me from being able to say my household was fully electric!
 
@@ -52,9 +51,9 @@ Man, I loved that car! The instant torque, the tech, the silence. The only thing
 
 ## The Comfort Problem
 
-OK so here's what nobody tells you about the Performance Model Y. After tens of thousands of miles of commuting, you start to feel every single one of them! The ride never really softened up, even on 18s. And the seats. I don't know what Tesla was going for with those seats, but three days a week on I-90 from North Bend to Seattle and back, they wore on you. It wasn't a dealbreaker at first, but over two years it became a real grind.
+OK so here's what nobody tells you about the Performance Model Y. After tens of thousands of miles of commuting, you start to feel every single one of them! The ride never really softened up, even on 18s. And the seats. Seats can be subjective, and for us three days a week on I-90 from North Bend to Seattle and back, we never got comfortable. We had gotten used to larger vehicles and comfortable seats from the BMW X5, the Acura RDX, the Infiniti FX37. The Tesla seats just didn't feel comfortable.
 
-We wanted something bigger. Something more comfortable. Something that didn't make a 60-mile commute feel like an endurance test! That's how we found the Rivian R1S. From the very first test drive, it was obvious. The R1S was what the Model Y wanted to be when it grew up! Spacious, composed, and built for people who actually drive long distances.
+We wanted something bigger. Something more comfortable. Something that didn't make a 70-mile commute feel like an endurance test! That's how we found the Rivian R1S. From the very first test drive, it was obvious. The R1S was what the Model Y wanted to be when it grew up! Spacious, composed, and built for people who actually drive long distances.
 
 In March 2024, I traded the Acura for the R1S. Black. Quad motor. That was the moment the driveway went fully electric. No more gas vehicles, period! Then in October 2024, I traded the Model Y (33,000 miles on the odometer) for a Green R1T as my daily driver. Two Rivians. Zero gas. What a time to be alive!!
 
@@ -69,7 +68,7 @@ Now here's the tricky part. Moving to Rivians meant accepting 2.2 mi/kWh instead
 
 ## The Road Trips
 
-These aren't garage queens! The Tesla took us to Portland twice and up to Vancouver, Canada. That was my first taste of long-distance EV travel. But the Rivians are where the real adventures happened!
+These aren't garage queens! I drive my cars! The Tesla took us to Portland twice and up to Vancouver, Canada. That was my first taste of long-distance EV travel. But the Rivians are where the real adventures happened!
 
 The R1T handled an Oregon coast trip without breaking a sweat. And the R1S... oh man, the R1S Quad is the best car I've ever owned, full stop! It checks every single box. We took it on two epic road trips to Denver and back, 2,400 miles round-trip through the Rockies with Korra in the back seat! One of those trips was in the dead of winter through actual snowstorms. Whiteout conditions on I-70, and the R1S just powered through like it was built for exactly that moment. Because it was!!
 

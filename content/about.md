@@ -1,8 +1,8 @@
 ---
 title: "About"
-layout: "single"
 draft: false
 description: "SDM at AWS. Writing about technology, EVs, longevity, and the things I'm building."
+showAuthor: false
 ---
 
 ![Punit Deotale](/images/punit_ai.jpg)
