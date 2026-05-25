@@ -51,9 +51,9 @@ Man, I loved that car! The instant torque, the tech, the silence. The only thing
 
 ## The Comfort Problem
 
-OK so here's what nobody tells you about the Performance Model Y. After tens of thousands of miles of commuting, you start to feel every single one of them! The ride never really softened up, even on 18s. And the seats. Seats can be subjective, and for us three days a week on I-90 from North Bend to Seattle and back, we never got comfortable. We had gotten used to larger vehicles and comfortable seats from the BMW X5, the Acura RDX, the Infiniti FX37. The Tesla seats just didn't feel comfortable.
+OK so here's what nobody tells you about the Performance Model Y. After tens of thousands of miles of commuting, you start to feel every single one of them! The ride never really softened up, even on 18s. And the seats. Look, seats are personal, but for us — three days a week on I-90 from North Bend to Seattle and back — we never got comfortable. We'd been spoiled by the BMW X5, the Acura RDX, the Infiniti FX37. The Tesla seats just didn't do it for us.
 
-We wanted something bigger. Something more comfortable. Something that didn't make a 70-mile commute feel like an endurance test! That's how we found the Rivian R1S. From the very first test drive, it was obvious. The R1S was what the Model Y wanted to be when it grew up! Spacious, composed, and built for people who actually drive long distances.
+We wanted something bigger. Something more comfortable. Something that didn't make a 70-mile commute feel like an endurance test! That's how we found the Rivian R1S. From the very first test drive, it was obvious. The R1S was what the Model Y wanted to be when it grew up! Everything the Tesla did well, the R1S did better, and it was built for people who actually put miles on their cars.
 
 In March 2024, I traded the Acura for the R1S. Black. Quad motor. That was the moment the driveway went fully electric. No more gas vehicles, period! Then in October 2024, I traded the Model Y (33,000 miles on the odometer) for a Green R1T as my daily driver. Two Rivians. Zero gas. What a time to be alive!!
 
@@ -78,9 +78,9 @@ The R1T handled an Oregon coast trip without breaking a sweat. And the R1S... oh
   <div class="photo-item"><img src="/images/ev-journey/r1s-charging-sunset.jpg" alt="Charging stop on the Denver run"><div class="caption">Charging at sunset</div></div>
 </div>
 
-Each of those road trips deserves its own post. The charging stops, the route planning, the moments where you're wondering if the next charger is actually online. Those posts are coming! And speaking of road trips and electric adventure... I've been working on something. More on that soon.
+I wrote up [the full story of our winter Denver road trip](/blog/trailspark-seattle-denver-road-trip/) — the charging stops, the route planning, the Moab detour, Vail Pass at night in the snow. All of it!! And that trip is actually the reason I built TrailSpark. More on that in the post.
 
-I cannot get enough of this machine! I loved the BMW X5, I loved the Tesla, but the R1S is something different. It's the first vehicle I've owned where I never think about what it can't do.
+I cannot get enough of this machine! I loved the BMW X5, I loved the Tesla, but the R1S is something different. It's the first vehicle I've owned where I never think about what it can't do. I just drive it and it handles everything!!
 
 <div class="photo-single">
   <img src="/images/ev-journey/r1s-red-rocks.jpg" alt="The R1S at red rocks — it looks like it belongs here">
@@ -91,6 +91,6 @@ Before the Rivians, I needed the Acura as a gas backup for anything the Tesla co
 
 ## What's Next
 
-I started as a car guy who loved ICE cars. The BMW X5, the iconic Infiniti FX37. I miss them all! But nothing beats EVs and I love my Rivians. Over the last 3.5 years driving electric, I've kept 31 tons of carbon out of the sky! I traded efficiency for utility, and in exchange I'm building a life that's fully integrated with the outdoors I'm trying to protect.
+I started as a car guy who loved ICE cars. The BMW X5, the iconic Infiniti FX37. I miss them all! But nothing — and I mean nothing — beats EVs. I love my Rivians. Over the last 3.5 years driving electric, I've kept 31 tons of carbon out of the sky! I traded efficiency for utility, gave up the gas backup entirely, and in exchange? I get to live the exact outdoor life I want without wrecking the outdoors I'm out there to see.
 
 The odometer keeps climbing. So does the offset. We're just getting started!!

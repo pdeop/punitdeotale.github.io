@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   border-radius: 8px;
 }
+
+/* ── Two-tone: teal primary + copper/rose-gold secondary ── */
+
+/* Tags / taxonomy pills → copper */
+.dark a[href*="/tags/"] span span,
+.dark a[href*="/categories/"] span span,
+.dark .post-tags a {
+  color: rgba(210, 165, 135, 0.7) !important;
+  border-color: rgba(210, 165, 135, 0.2) !important;
+}
+.dark a[href*="/tags/"]:hover span span,
+.dark a[href*="/categories/"]:hover span span,
+.dark .post-tags a:hover {
+  background: rgba(210, 165, 135, 0.07) !important;
+  border-color: rgba(210, 165, 135, 0.35) !important;
+}
+
+/* Article meta (date, reading time) → muted copper */
+.dark .article-meta,
+.dark .article-meta * {
+  color: rgba(200, 150, 115, 0.7) !important;
+}
+
+/* In-body links → teal underline */
+.dark .prose a:not(.badge) {
+  text-decoration-color: rgba(10, 245, 210, 0.35) !important;
+}
+.dark .prose a:not(.badge):hover {
+  text-decoration-color: rgba(10, 245, 210, 0.7) !important;
+}
+
+/* Table of contents → copper on hover */
+.dark #TableOfContents a:hover {
+  color: rgb(220, 155, 120) !important;
+}
+
+/* Breadcrumbs → muted copper */
+.dark .breadcrumbs a {
+  color: rgba(200, 150, 115, 0.7) !important;
+}
+.dark .breadcrumbs a:hover {
+  color: rgb(220, 155, 120) !important;
+}
+
+/* Pagination → teal active */
+.dark .pagination .active a {
+  background: rgba(10, 245, 210, 0.1) !important;
+  border-color: rgba(10, 245, 210, 0.4) !important;
+  color: rgb(10, 245, 210) !important;
+}
+
+/* Search highlight → copper */
+.dark mark, .dark .search-result mark {
+  background: rgba(220, 155, 120, 0.18) !important;
+  color: rgb(235, 180, 145) !important;
+}
+
+/* ── Card glow (teal border + warm halo) ─────── */
+.dark article[class*="card"],
+.dark .card,
+.dark div[class*="recent"] a,
+.dark .taxonomy-card,
+.dark .category-card {
+  transition: box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+  border: 1px solid rgba(10, 245, 210, 0.08);
+  box-shadow: 0 0 8px rgba(10, 245, 210, 0.03);
+}
+
+.dark article[class*="card"]:hover,
+.dark .card:hover,
+.dark div[class*="recent"] a:hover,
+.dark .taxonomy-card:hover,
+.dark .category-card:hover {
+  border-color: rgba(10, 245, 210, 0.18);
+  box-shadow:
+    0 0 10px rgba(10, 245, 210, 0.12),
+    0 0 30px rgba(220, 155, 120, 0.06);
+  transform: translateY(-2px);
+}
+
+/* ── Heading hover → warm glow ───────────────── */
+.dark h1 a:hover,
+.dark h2 a:hover,
+.dark h3 a:hover,
+.dark .article-title:hover {
+  text-shadow: 0 0 10px rgba(220, 155, 120, 0.25);
+}
+
+/* ── Scrollbar ───────────────────────────────── */
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(10, 245, 210, 0.2);
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(10, 245, 210, 0.35);
+}
+.dark ::-webkit-scrollbar-track {
+  background: rgba(13, 16, 35, 0.8);
+}
+
+/* ── Selection highlight → warm ──────────────── */
+.dark ::selection {
+  background: rgba(220, 155, 120, 0.25);
+  color: rgb(255, 240, 230);
+}
