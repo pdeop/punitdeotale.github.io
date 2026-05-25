@@ -1,74 +1,70 @@
-colorScheme = "neonforest"
+# Flavor Theme configuration parameters
+
+# Basic settings
 defaultAppearance = "dark"
-autoSwitchAppearance = false
-
-enableSearch = true
-enableCodeCopy = true
-
-disableImageOptimization = false
-disableTextInHeader = false
 Logo = "images/punit_ai.jpg"
 
-[header]
-  layout = "fixed-fill-blur"
+[hero]
+  headline = "I build cloud identity systems and write about security, electric vehicles, and longevity."
+  subheadline = "SDM at AWS IAM. Builder. Writer. Dog dad to Korra."
 
-[footer]
-  showMenu = true
-  showCopyright = true
-  showThemeAttribution = false
-  showAppearanceSwitcher = false
-  showScrollToTop = true
+[[hero.stats]]
+  value = "87,000+"
+  label = "Electric Miles"
+
+[[hero.stats]]
+  value = "4"
+  label = "Peer-Reviewed Publications"
+
+[[hero.buttons]]
+  url = "/blog/"
+  label = "Read the Blog"
+  primary = true
+
+[[hero.buttons]]
+  url = "/about/"
+  label = "About Me"
+  primary = false
 
 [homepage]
-  layout = "profile"
-  showRecent = true
-  showRecentItems = 6
-  showMoreLink = true
-  showMoreLinkDest = "/blog/"
-  cardView = true
-  cardViewScreenWidth = false
-  layoutBackgroundBlur = false
+  [[homepage.sections]]
+    category = "Technology"
+    title = "Technology & Cloud Security"
+    limit = 3
+
+  [[homepage.sections]]
+    category = "Electric Vehicles"
+    title = "Electric Vehicles & Road Trips"
+    limit = 3
+
+  [[homepage.sections]]
+    category = "My Work"
+    title = "My Work & Musings"
+    limit = 3
+
+[[projects]]
+  name = "TrailSpark"
+  description = "A planning and route assistant for electric vehicle adventures."
+  url = "https://trailspark.me"
+  external = true
+
+[[projects]]
+  name = "Automated System Integration Simulation"
+  description = "Eye-tracking and game-based learning environments for engineering systems."
+  url = "/publications/"
+  external = false
+
+[[social]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/punitdeotale/"
+
+[[social]]
+  name = "GitHub"
+  url = "https://github.com/pdeop"
+
+[[social]]
+  name = "Google Scholar"
+  url = "https://scholar.google.com/citations?user=Xl2GSWEAAAAJ"
 
 [article]
-  showDate = true
-  showDateUpdated = false
-  showAuthor = false
-  showHero = true
-  heroStyle = "big"
-  showBreadcrumbs = true
-  showDraftLabel = true
-  showEdit = false
-  showHeadingAnchors = true
-  showPagination = true
-  showReadingTime = true
   showTableOfContents = true
-  showRelatedContent = true
-  relatedContentLimit = 3
-  showTaxonomies = true
-  showWordCount = false
-  showZenMode = false
-  sharingLinks = ["linkedin", "twitter", "reddit", "email"]
-
-[list]
-  showHero = false
-  showBreadcrumbs = true
-  showSummary = true
-  showTableOfContents = false
-  showCards = true
-  groupByYear = true
-  cardView = true
-  cardViewScreenWidth = false
-
-[sitemap]
-  excludedKinds = ["taxonomy", "term"]
-
-[taxonomy]
-  showTermCount = true
-  showBreadcrumbs = true
-  cardView = true
-
-[term]
-  showBreadcrumbs = true
-  showTableOfContents = false
-  groupByYear = false
-  cardView = true

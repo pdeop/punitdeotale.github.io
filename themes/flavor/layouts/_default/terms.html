@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="container list-page">
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="description">{{ . }}</p>{{ end }}
+
+  <div class="post-grid" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));">
+    {{ range .Pages }}
+    <a href="{{ .Permalink }}" class="post-card" style="text-align: center;">
+      <h3>{{ .Title }}</h3>
+      <p>{{ len .Pages }} {{ if eq (len .Pages) 1 }}post{{ else }}posts{{ end }}</p>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

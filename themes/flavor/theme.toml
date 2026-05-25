@@ -1,0 +1,11 @@
+name = "Flavor"
+license = "MIT"
+licenselink = "https://github.com/pdeop/flavor/blob/main/LICENSE"
+description = "A minimal, dark, section-based personal blog theme"
+tags = ["blog", "dark", "minimal", "personal"]
+features = ["dark mode", "sections", "responsive"]
+min_version = "0.120.0"
+
+[author]
+  name = "Punit Deotale"
+  homepage = "https://punitdeotale.com"

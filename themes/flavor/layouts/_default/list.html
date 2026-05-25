@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="container list-page">
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="description">{{ . }}</p>{{ end }}
+
+  <div class="post-grid">
+    {{ range .Pages }}
+      {{ if not .Draft }}
+        {{ partial "post-card.html" . }}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

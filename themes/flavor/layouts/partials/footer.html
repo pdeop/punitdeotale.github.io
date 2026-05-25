@@ -1,0 +1,35 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="{{ .Site.BaseURL }}" class="site-logo" style="margin-bottom: 1rem;">
+          {{ with .Site.Params.author.image }}
+          <img src="{{ . | relURL }}" alt="{{ $.Site.Title }}" loading="lazy">
+          {{ end }}
+          <span>{{ .Site.Params.author.name | default .Site.Title }}</span>
+        </a>
+        <p>{{ .Site.Params.description }}</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          {{ range .Site.Params.social }}
+          <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; {{ now.Year }} {{ .Site.Params.author.name | default .Site.Title }}. All rights reserved.</span>
+      <span>Built with <a href="https://gohugo.io" target="_blank" rel="noopener" style="color: var(--accent);">Hugo</a></span>
+    </div>
+  </div>
+</footer>
