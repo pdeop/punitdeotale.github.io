@@ -1,16 +1,16 @@
 :root {
-  /* Neutrals — deep rich midnight navy */
-  --color-neutral: 242, 244, 250;
-  --color-neutral-50: 242, 244, 250;
-  --color-neutral-100: 224, 228, 242;
-  --color-neutral-200: 191, 198, 224;
-  --color-neutral-300: 142, 153, 191;
-  --color-neutral-400: 98, 110, 154;
-  --color-neutral-500: 64, 75, 117;
-  --color-neutral-600: 42, 50, 85;
-  --color-neutral-700: 27, 33, 59;
-  --color-neutral-800: 18, 22, 41;
-  --color-neutral-900: 11, 13, 26;
+  /* Neutrals — deep rich carbon black */
+  --color-neutral: 245, 245, 247;
+  --color-neutral-50: 245, 245, 247;
+  --color-neutral-100: 224, 224, 229;
+  --color-neutral-200: 195, 195, 202;
+  --color-neutral-300: 150, 150, 158;
+  --color-neutral-400: 108, 108, 115;
+  --color-neutral-500: 73, 73, 80;
+  --color-neutral-600: 44, 44, 49;
+  --color-neutral-700: 28, 28, 32;
+  --color-neutral-800: 18, 18, 21;
+  --color-neutral-900: 8, 8, 10;
 
   /* Primary — softer electric teal/mint */
   --color-primary-50: 240, 253, 250;
