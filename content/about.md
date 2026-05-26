@@ -28,7 +28,7 @@ I'm a big believer that the next few decades are going to be transformative for 
 This site is where I think out loud. Not just about work, but about the things I'm genuinely curious about:
 
 - **Technology** — AI, cloud security, identity systems, developer tools, phones, devices, and the tech shaping how we build and live
-- **Electric Vehicles** — the EV transition, charging infrastructure, and what it's like to actually live with an EV
+- **Electric Vehicles** — the EV transition, charging infrastructure, and what it's like to live with an EV (I also build [TrailSpark](https://trailspark.me) to help plan and share EV road trip adventures)
 - **Longevity and Health** — the science of living longer and better, from metabolic health to cutting-edge research
 - **My Work** — lessons from building identity infrastructure at AWS scale
 

@@ -221,7 +221,7 @@ After this trip I came home with hundreds of photos. Every charging stop, every 
 
 But where does that trip live? A group chat that gets buried in a week? A camera roll nobody scrolls back to? These trips deserve to be seen and shared! The routes, the charging stops, the moments where you're standing in Moab at golden hour.
 
-So I built TrailSpark! You drop your photos in and it builds your road trip. Your stops, your route, your charging data, your milestones — all on a timeline you can share. No writing required, just the photos you already took.
+So I built [TrailSpark](https://trailspark.me)! You drop your photos in and it builds your road trip. Your stops, your route, your charging data, your milestones — all on a timeline you can share. No writing required, just the photos you already took.
 
 ---
 
@@ -243,4 +243,4 @@ So I built TrailSpark! You drop your photos in and it builds your road trip. You
 
 *Punit, Rabab & Korra · North Bend, WA → Denver, CO → North Bend, WA · November-December 2025*
 
-*Got your own EV road trip? Drop your photos into TrailSpark and share it!!*
+*Got your own EV road trip? Drop your photos into [TrailSpark](https://trailspark.me) and share it!!*

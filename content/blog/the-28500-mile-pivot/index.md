@@ -78,7 +78,7 @@ The R1T handled an Oregon coast trip without breaking a sweat. And the R1S... oh
   <div class="photo-item"><img src="/images/ev-journey/r1s-charging-sunset.jpg" alt="Charging stop on the Denver run"><div class="caption">Charging at sunset</div></div>
 </div>
 
-I wrote up [the full story of our winter Denver road trip](/blog/trailspark-seattle-denver-road-trip/) — the charging stops, the route planning, the Moab detour, Vail Pass at night in the snow. All of it!! And that trip is actually the reason I built TrailSpark. More on that in the post.
+I wrote up [the full story of our winter Denver road trip](/blog/trailspark-seattle-denver-road-trip/) — the charging stops, the route planning, the Moab detour, Vail Pass at night in the snow. All of it!! And that trip is actually the reason I built [TrailSpark](https://trailspark.me). More on that in the post.
 
 I cannot get enough of this machine! I loved the BMW X5, I loved the Tesla, but the R1S is something different. It's the first vehicle I've owned where I never think about what it can't do. I just drive it and it handles everything!!
 
