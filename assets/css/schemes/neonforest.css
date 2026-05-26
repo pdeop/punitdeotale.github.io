@@ -1,38 +1,38 @@
 :root {
-  /* Neutrals — deep midnight navy */
-  --color-neutral: 235, 240, 255;
-  --color-neutral-50: 235, 240, 255;
-  --color-neutral-100: 195, 205, 230;
-  --color-neutral-200: 150, 160, 190;
-  --color-neutral-300: 110, 120, 155;
-  --color-neutral-400: 75, 85, 120;
-  --color-neutral-500: 55, 62, 95;
-  --color-neutral-600: 35, 42, 72;
-  --color-neutral-700: 22, 28, 52;
-  --color-neutral-800: 13, 16, 35;
-  --color-neutral-900: 7, 9, 22;
+  /* Neutrals — deep rich midnight navy */
+  --color-neutral: 242, 244, 250;
+  --color-neutral-50: 242, 244, 250;
+  --color-neutral-100: 224, 228, 242;
+  --color-neutral-200: 191, 198, 224;
+  --color-neutral-300: 142, 153, 191;
+  --color-neutral-400: 98, 110, 154;
+  --color-neutral-500: 64, 75, 117;
+  --color-neutral-600: 42, 50, 85;
+  --color-neutral-700: 27, 33, 59;
+  --color-neutral-800: 18, 22, 41;
+  --color-neutral-900: 11, 13, 26;
 
-  /* Primary — mint-teal */
-  --color-primary-50: 220, 255, 250;
-  --color-primary-100: 170, 255, 240;
-  --color-primary-200: 110, 255, 230;
-  --color-primary-300: 50, 255, 220;
-  --color-primary-400: 10, 245, 210;
-  --color-primary-500: 0, 230, 195;
-  --color-primary-600: 0, 200, 170;
-  --color-primary-700: 0, 165, 140;
-  --color-primary-800: 0, 130, 110;
-  --color-primary-900: 0, 85, 72;
+  /* Primary — softer electric teal/mint */
+  --color-primary-50: 240, 253, 250;
+  --color-primary-100: 204, 251, 241;
+  --color-primary-200: 153, 246, 228;
+  --color-primary-300: 94, 234, 212;
+  --color-primary-400: 45, 212, 191;
+  --color-primary-500: 20, 184, 166;
+  --color-primary-600: 13, 148, 136;
+  --color-primary-700: 15, 118, 110;
+  --color-primary-800: 17, 94, 89;
+  --color-primary-900: 19, 78, 74;
 
-  /* Secondary — warm rose-gold / copper */
-  --color-secondary-50: 255, 242, 235;
-  --color-secondary-100: 255, 218, 200;
-  --color-secondary-200: 245, 185, 160;
-  --color-secondary-300: 230, 155, 125;
-  --color-secondary-400: 220, 135, 105;
-  --color-secondary-500: 205, 115, 85;
-  --color-secondary-600: 180, 95, 70;
-  --color-secondary-700: 150, 78, 55;
-  --color-secondary-800: 115, 58, 40;
-  --color-secondary-900: 75, 38, 25;
+  /* Secondary — softer warm copper */
+  --color-secondary-50: 254, 243, 199;
+  --color-secondary-100: 253, 230, 138;
+  --color-secondary-200: 251, 191, 36;
+  --color-secondary-300: 245, 158, 11;
+  --color-secondary-400: 226, 135, 67;
+  --color-secondary-500: 217, 119, 6;
+  --color-secondary-600: 180, 83, 9;
+  --color-secondary-700: 146, 64, 14;
+  --color-secondary-800: 120, 53, 4;
+  --color-secondary-900: 78, 32, 2;
 }

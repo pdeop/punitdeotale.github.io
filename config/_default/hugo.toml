@@ -1,6 +1,6 @@
 baseURL = "https://punitdeotale.com/"
 defaultContentLanguage = "en"
-theme = "flavor"
+theme = "blowfish"
 
 enableRobotsTXT = true
 summaryLength = 0
@@ -28,7 +28,7 @@ enableEmoji = true
   priority = 0.5
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON"]
 
 [related]
   threshold = 0
