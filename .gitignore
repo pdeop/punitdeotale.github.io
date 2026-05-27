@@ -18,3 +18,7 @@
 node_modules/
 package-lock.json
 yarn.lock
+
+# Raw assets
+/assets/img/
+

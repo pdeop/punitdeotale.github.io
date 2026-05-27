@@ -25,6 +25,11 @@ This time we did it right. Four leisurely days each way. Overnight stops in Bois
 
 **~3,000 Round Trip Miles · 7 Days on the Road · 11,113 Peak Altitude (ft) · 3 Mountain Passes · 0 Gas Stops**
 
+<div class="photo-collage">
+  <div class="photo-item"><img src="/images/road-trip/trip-stats-1.jpg" alt="Total Trip Stats - Overview"><div class="caption">Total trip stats — efficiency and consumption breakdown</div></div>
+  <div class="photo-item"><img src="/images/road-trip/trip-stats-2.jpg" alt="Total Trip Stats - Details"><div class="caption">Trip stats — distance and duration summary</div></div>
+</div>
+
 ---
 
 ## Outbound Route · I-90 → I-84 → I-15 → US-191 → I-70 → Denver
