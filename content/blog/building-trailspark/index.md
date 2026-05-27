@@ -32,6 +32,47 @@ By delegating the boilerplate, configuration syntax, and debugging loops to AI, 
 
 ---
 
+## 📋 The Blueprint: Product Specifications & Claude's Role
+
+Before writing any architecture or code, a robust product spec was crucial to establish the boundary of the MVP. I used **Claude** to draft and refine the product requirements document (PRD) for Trail Spark. It helped me establish clear product boundaries and separate what was critical for launch from nice-to-have features.
+
+Here is a concise summary of the **Trail Spark Product Requirements Document (PRD)**:
+
+### 1. Problem Statement
+EV road trippers capture hundreds of photos and charging logs across multi-day journeys but lack a dedicated tool to organize this into shareable, location-aware timelines. Current solutions lose the rich geographical and narrative context of their travels.
+
+### 2. Goals (G1–G5)
+* **G1:** Ship a usable, chronological trip timeline sorted by location and time.
+* **G2:** Enable narrative editing (titles, descriptions, captions) with persistent saving.
+* **G3:** Provide read-only sharing capability via a public URL.
+* **G4:** Support multi-trip creation and management.
+* **G5:** Lay the database and routing foundation for future social features.
+
+### 3. Non-Goals (Out of Scope for v1)
+* Real-time social mechanics (likes, comments, follows).
+* External charging station directory reviews (OCPI/NREL integrations).
+* Native mobile apps (the current app is mobile-responsive web).
+* Real-time live route tracking.
+
+### 4. Key Requirements & Phases
+* **Phase 1: "Ship the Timeline" (P0 Requirements - Completed)**
+  * Responsive photo grid layout grouped by chronological days.
+  * Media lightbox for full-screen photo viewing.
+  * Inline edit modes for stop titles, descriptions, and captions.
+  * Secure DynamoDB persistence and public AWS SAM / CloudFront deployment.
+* **Phase 2: "Make It Shareable" (P1 Requirements - In Progress)**
+  * Public read-only trip URLs (disabling edit controls).
+  * Open Graph (OG) tags for social media link previews.
+  * GPS coordinates linking directly to Google Maps.
+  * Data backup (importing/exporting trip text data as JSON).
+
+### 5. Future Roadmap Summary
+* **Phase 3 (Month 2):** Drag-and-drop web image uploads, server-side EXIF metadata extraction, chronological auto-grouping, and reverse-geocoding coordinates.
+* **Phase 4 (Month 3-4):** Cognito user registration, custom profiles, and social features (follows, likes, comments).
+* **Phase 5 (Month 5+):** Interactive Leaflet/Mapbox route maps, charging station overlays, and telematics integration (Tesla/Rivian APIs).
+
+---
+
 ## 🏗️ Architectural Decisions: Why Serverless and SAM?
 
 For a hobby project, operation and maintenance overhead must be near zero. I don't want to wake up to a crashed server, manage container patches, or pay for idle virtual machines.
