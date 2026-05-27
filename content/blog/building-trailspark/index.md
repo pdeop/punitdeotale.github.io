@@ -128,6 +128,18 @@ This acts as a physical breaker, taking the API offline instantly to prevent bil
 
 ---
 
+## 📈 Observability & Monitoring: An Engineering Manager's Approach
+
+As an engineer and engineering manager, I know first-hand that you cannot manage what you do not measure. Observability and monitoring are not optional add-ons; they are core architectural requirements. For a self-hosted hobby project on AWS, we need minimal operational overhead, budget safety, and fast troubleshooting. 
+
+I structured our observability stack into four key pillars:
+1. **Unified Dashboard (`TrailSpark-BotTraffic`):** A 30-panel CloudWatch Dashboard tracking client traffic (CloudFront edge latency and cache hit ratios), compute health (API Gateway times, Lambda execution percentiles and error rates), data persistence (DynamoDB read/write capacity and latency), and security (WAF total, blocked, allowed, and bot traffic).
+2. **Operational Alarms:** Automated CloudWatch Alarms notifying me via an SNS Alerts Topic for elevated Lambda errors (`trail-spark-lambda-errors`), near-concurrency limits (`trail-spark-lambda-throttles`), API Gateway 5xx faults (`trail-spark-api-5xx`), and DynamoDB read/write throttling (`trail-spark-dynamo-throttle`).
+3. **Automated Resilience (The Andon Cord):** If CloudWatch registers a DDoS-like traffic surge—such as Lambda invocations exceeding 500/min or DynamoDB read/write capacity spiking—or if AWS Budgets detects our $10/month cap is breached, an SNS alert automatically triggers our Kill-Switch Lambda. This Lambda overrides the Express API's reserved concurrency to `0`, acting as a physical circuit breaker to take the API offline instantly and prevent runway billing.
+4. **Logging & Privacy Auditing:** We stream WAF logs continuously to CloudWatch Logs (`aws-waf-logs-trail-spark-prod`) with a 30-day retention policy to facilitate rate-limit tuning, and track AWS Rekognition metrics to monitor the dynamic license plate blurring pipeline during media uploads.
+
+---
+
 ## 🧪 Validating the System: Gameday Testing
 
 Because AI built these resilience systems, I needed a way to prove they work under real-world stress. I created a test script called `gameday.sh` that simulates live attacks and budget breaches directly against the production environment. 
