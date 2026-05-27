@@ -1,7 +1,7 @@
 ---
 title: "About"
 draft: false
-description: "SDM at AWS. Writing about technology, EVs, longevity, and the things I'm building."
+description: "SDM at AWS. Writing about technology, cloud security, identity systems, longevity, and side projects."
 showAuthor: false
 ---
 
@@ -9,7 +9,7 @@ showAuthor: false
 
 I'm an environmentalist who is deeply troubled by how we are destroying our planet and the ecosystems we belong to. We are one with nature. We are part of it, not separate from it. And somewhere along the way our species moved so far away from our place on this incredible planet. That keeps me up at night!
 
-But I'm also an eternally romantic, hopeful person. Especially around tech and humanity's future! I love animals, I love science, I'm a huge sci-fi nerd, and I want to be on the cutting edge of whatever comes next. I can't help it. I read about a breakthrough in mRNA vaccines or CRISPR gene editing or a new EV that can do 300 miles in a snowstorm and I think, man, we might actually figure this out!!
+But I'm also an eternally romantic, hopeful person. Especially around tech and humanity's future! I love animals, I love science, I'm a huge sci-fi nerd, and I want to be on the cutting edge of whatever comes next. I can't help it. I read about a breakthrough in mRNA vaccines or CRISPR gene editing or a new clean energy breakthrough and I think, man, we might actually figure this out!!
 
 That combination, the grief for what we're losing and the excitement for what we might build, is what drives everything I do. This site is where those worlds collide.
 
@@ -27,8 +27,7 @@ I'm a big believer that the next few decades are going to be transformative for 
 
 This site is where I think out loud. Not just about work, but about the things I'm genuinely curious about:
 
-- **Technology** — AI, cloud security, identity systems, developer tools, phones, devices, and the tech shaping how we build and live
-- **Electric Vehicles** — the EV transition, charging infrastructure, and what it's like to live with an EV (I also build [TrailSpark](https://trailspark.me) to help plan and share EV road trip adventures)
+- **Technology & Side Projects** — AI, cloud security, identity systems, developer experience, and the technical side of building side projects (like [TrailSpark](https://trailspark.me) for EV road trips)
 - **Longevity and Health** — the science of living longer and better, from metabolic health to cutting-edge research
 - **My Work** — lessons from building identity infrastructure at AWS scale
 
