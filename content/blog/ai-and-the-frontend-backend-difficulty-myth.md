@@ -1,7 +1,7 @@
 ---
 title: "AI Didn't Settle the Frontend vs Backend Debate. It Moved It."
 date: 2026-06-20
-draft: false
+draft: true
 description: "The idea that frontend is easier than backend has always been a misread. AI is now amplifying that misread, by accelerating exactly the work that was already easy to verify and barely touching the work that wasn't."
 tags: ["ai", "frontend", "backend", "software-engineering", "developer-experience"]
 categories: ["Technology"]
