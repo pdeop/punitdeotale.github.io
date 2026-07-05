@@ -1,135 +1,153 @@
-/* Fonts */
+/* ============================================================
+   Punit Deotale — "Ember" theme for Blowfish
+   Modern-minimal: warm carbon, near-monochrome, one solid
+   amber accent. Restraint over decoration; motion only on
+   interaction. No gradients.
+   ============================================================ */
+
+/* ── Typography ─────────────────────────────────────────── */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 body, html {
   font-family: 'Inter', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.006em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
+  letter-spacing: -0.022em;
 }
 
-/* Header logo as rounded thumbnail */
-.logo {
+.dark h1.font-extrabold {
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+.prose p {
+  line-height: 1.75;
+}
+
+/* ── Faint film grain over the whole page ───────────────── */
+.dark body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ── Thin amber scroll-progress bar (via extend-footer) ──── */
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  z-index: 100;
+  background: rgb(245, 158, 11);
+  transition: width 0.1s ease-out;
+}
+
+/* ── Header logo — rounded, quiet ───────────────────────── */
+.logo,
+.dark .logo img,
+.dark header .logo {
   border-radius: 50%;
 }
 
-/* Photo collage layouts */
-.photo-collage {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin: 2rem 0;
+/* ── In-body links — solid amber underline ──────────────── */
+.dark .prose a:not(.badge) {
+  color: rgb(240, 239, 236);
+  text-decoration: underline;
+  text-decoration-color: rgba(245, 158, 11, 0.55);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-color 0.2s ease, color 0.2s ease;
+}
+.dark .prose a:not(.badge):hover {
+  color: rgb(252, 211, 77);
+  text-decoration-color: rgb(245, 158, 11);
 }
 
-.photo-collage .photo-item {
-  flex: 1 1 280px;
-  max-width: 100%;
+/* ── Prose H2 — thin solid amber tick ───────────────────── */
+.dark .prose h2 {
+  position: relative;
+  padding-left: 0.85rem;
+}
+.dark .prose h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.18em;
+  bottom: 0.18em;
+  width: 2px;
+  border-radius: 2px;
+  background: rgb(245, 158, 11);
 }
 
-.photo-collage .photo-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+/* ── Blockquote — solid amber left edge ─────────────────── */
+.dark .prose blockquote {
+  border-left: 2px solid rgba(245, 158, 11, 0.7);
 }
 
-.photo-single {
-  margin: 2rem 0;
-}
-
-.photo-single img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.caption {
-  text-align: center;
-  font-size: 0.85rem;
-  opacity: 0.7;
-  margin-top: 0.5rem;
-  font-style: italic;
-}
-
-/* Infographic sizing */
-.infographic-container {
-  margin: 2rem 0;
-  text-align: center;
-}
-
-.infographic-container img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-/* ── Two-tone: teal primary + copper/rose-gold secondary ── */
-
-/* Tags / taxonomy pills → copper */
+/* ── Tags / taxonomy pills → hairline, amber on hover ───── */
 .dark a[href*="/tags/"] span span,
 .dark a[href*="/categories/"] span span,
 .dark .post-tags a {
-  color: rgba(210, 165, 135, 0.7) !important;
-  border-color: rgba(210, 165, 135, 0.2) !important;
+  color: rgba(196, 193, 186, 0.75) !important;
+  border-color: rgba(196, 193, 186, 0.16) !important;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
 }
 .dark a[href*="/tags/"]:hover span span,
 .dark a[href*="/categories/"]:hover span span,
 .dark .post-tags a:hover {
-  background: rgba(210, 165, 135, 0.07) !important;
-  border-color: rgba(210, 165, 135, 0.35) !important;
+  color: rgb(252, 211, 77) !important;
+  background: rgba(245, 158, 11, 0.1) !important;
+  border-color: rgba(245, 158, 11, 0.45) !important;
 }
 
-/* Article meta (date, reading time) → muted copper */
+/* ── Article meta (date, reading time) → muted neutral ──── */
 .dark .article-meta,
 .dark .article-meta * {
-  color: rgba(200, 150, 115, 0.7) !important;
+  color: rgba(156, 152, 143, 0.9) !important;
 }
 
-/* In-body links → teal underline */
-.dark .prose a:not(.badge) {
-  text-decoration-color: rgba(10, 245, 210, 0.35) !important;
-}
-.dark .prose a:not(.badge):hover {
-  text-decoration-color: rgba(10, 245, 210, 0.7) !important;
-}
-
-/* Table of contents → copper on hover */
-.dark #TableOfContents a:hover {
-  color: rgb(220, 155, 120) !important;
-}
-
-/* Breadcrumbs → muted copper */
-.dark .breadcrumbs a {
-  color: rgba(200, 150, 115, 0.7) !important;
-}
+/* ── TOC / breadcrumbs → amber on hover ─────────────────── */
+.dark #TableOfContents a:hover,
 .dark .breadcrumbs a:hover {
-  color: rgb(220, 155, 120) !important;
+  color: rgb(252, 211, 77) !important;
+}
+.dark .breadcrumbs a {
+  color: rgba(156, 152, 143, 0.9) !important;
 }
 
-/* Pagination → teal active */
+/* ── Pagination → amber active ──────────────────────────── */
 .dark .pagination .active a {
-  background: rgba(10, 245, 210, 0.1) !important;
-  border-color: rgba(10, 245, 210, 0.4) !important;
-  color: rgb(10, 245, 210) !important;
+  background: rgba(245, 158, 11, 0.14) !important;
+  border-color: rgba(245, 158, 11, 0.5) !important;
+  color: rgb(252, 211, 77) !important;
 }
 
-/* Search highlight → copper */
+/* ── Search highlight → amber ───────────────────────────── */
 .dark mark, .dark .search-result mark {
-  background: rgba(220, 155, 120, 0.18) !important;
-  color: rgb(235, 180, 145) !important;
+  background: rgba(245, 158, 11, 0.22);
+  color: rgb(254, 243, 199);
 }
 
-/* ── Card glow (teal border + warm halo) ─────── */
+/* ── Cards → hairline border, gentle lift on hover ──────── */
 .dark article[class*="card"],
 .dark .card,
 .dark div[class*="recent"] a,
 .dark .taxonomy-card,
 .dark .category-card {
-  transition: box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
-  border: 1px solid rgba(10, 245, 210, 0.08);
-  box-shadow: 0 0 8px rgba(10, 245, 210, 0.03);
+  transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+  border: 1px solid rgba(196, 193, 186, 0.08);
 }
 
 .dark article[class*="card"]:hover,
@@ -137,35 +155,75 @@ h1, h2, h3, h4, h5, h6 {
 .dark div[class*="recent"] a:hover,
 .dark .taxonomy-card:hover,
 .dark .category-card:hover {
-  border-color: rgba(10, 245, 210, 0.18);
-  box-shadow:
-    0 0 10px rgba(10, 245, 210, 0.12),
-    0 0 30px rgba(220, 155, 120, 0.06);
-  transform: translateY(-2px);
+  border-color: rgba(245, 158, 11, 0.35);
+  box-shadow: 0 10px 30px -14px rgba(0, 0, 0, 0.7);
+  transform: translateY(-3px);
 }
 
-/* ── Heading hover → warm glow ───────────────── */
-.dark h1 a:hover,
-.dark h2 a:hover,
-.dark h3 a:hover,
-.dark .article-title:hover {
-  text-shadow: 0 0 10px rgba(220, 155, 120, 0.25);
+/* ── Utility layouts (used by posts) ────────────────────── */
+.photo-collage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.photo-collage .photo-item {
+  flex: 1 1 280px;
+  max-width: 100%;
+}
+.photo-collage .photo-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.photo-single {
+  margin: 2rem 0;
+}
+.photo-single img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.caption {
+  text-align: center;
+  font-size: 0.85rem;
+  opacity: 0.65;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+.infographic-container {
+  margin: 2rem 0;
+  text-align: center;
+}
+.infographic-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
-/* ── Scrollbar ───────────────────────────────── */
+/* ── Scrollbar → slim, warm neutral ─────────────────────── */
+.dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
 .dark ::-webkit-scrollbar-thumb {
-  background: rgba(10, 245, 210, 0.2);
+  background: rgba(196, 193, 186, 0.18);
   border-radius: 4px;
 }
 .dark ::-webkit-scrollbar-thumb:hover {
-  background: rgba(10, 245, 210, 0.35);
+  background: rgba(245, 158, 11, 0.5);
 }
 .dark ::-webkit-scrollbar-track {
-  background: rgba(13, 16, 35, 0.8);
+  background: transparent;
 }
 
-/* ── Selection highlight → warm ──────────────── */
+/* ── Selection → amber ──────────────────────────────────── */
 .dark ::selection {
-  background: rgba(220, 155, 120, 0.25);
-  color: rgb(255, 240, 230);
+  background: rgba(245, 158, 11, 0.28);
+  color: rgb(255, 251, 235);
+}
+
+/* ── Respect reduced-motion ─────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  #scroll-progress { transition: none; }
 }

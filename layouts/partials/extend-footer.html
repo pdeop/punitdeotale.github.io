@@ -1,0 +1,17 @@
+{{/* Scroll progress bar — gradient flair */}}
+<div id="scroll-progress" aria-hidden="true"></div>
+<script>
+  (function () {
+    var bar = document.getElementById('scroll-progress');
+    if (!bar) return;
+    function update() {
+      var doc = document.documentElement;
+      var max = doc.scrollHeight - doc.clientHeight;
+      var pct = max > 0 ? (doc.scrollTop / max) * 100 : 0;
+      bar.style.width = pct + '%';
+    }
+    document.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  })();
+</script>

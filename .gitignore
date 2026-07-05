@@ -22,3 +22,17 @@ yarn.lock
 # Raw assets
 /assets/img/
 
+# Python / scratch tooling
+__pycache__/
+*.py
+*.pyc
+
+# Local scratch docs & drafts (not site content)
+/QUICKSTART.md
+/a-country-that-made-me-safe.md
+/health-evidence-analyst-instructions.md
+/claim-cards-proof.html
+
+# Claude Code local config & settings
+.claude/
+
