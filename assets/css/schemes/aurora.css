@@ -1,0 +1,38 @@
+:root {
+  /* Neutrals — cool cosmic indigo, deep night-sky ground with a faint violet undertone */
+  --color-neutral: 231, 233, 245;
+  --color-neutral-50: 240, 241, 250;
+  --color-neutral-100: 231, 233, 245;
+  --color-neutral-200: 200, 203, 224;
+  --color-neutral-300: 165, 170, 198;
+  --color-neutral-400: 137, 144, 176;
+  --color-neutral-500: 100, 106, 138;
+  --color-neutral-600: 66, 72, 102;
+  --color-neutral-700: 35, 40, 64;
+  --color-neutral-800: 16, 20, 35;
+  --color-neutral-900: 8, 10, 18;
+
+  /* Primary — living aurora teal, the confident cool accent */
+  --color-primary-50: 236, 254, 251;
+  --color-primary-100: 204, 251, 244;
+  --color-primary-200: 153, 244, 230;
+  --color-primary-300: 108, 233, 214;
+  --color-primary-400: 65, 220, 200;
+  --color-primary-500: 32, 197, 178;
+  --color-primary-600: 20, 165, 150;
+  --color-primary-700: 15, 130, 120;
+  --color-primary-800: 17, 100, 93;
+  --color-primary-900: 19, 80, 76;
+
+  /* Secondary — soft cosmic violet, the second half of the aurora */
+  --color-secondary-50: 245, 243, 255;
+  --color-secondary-100: 237, 233, 254;
+  --color-secondary-200: 221, 214, 254;
+  --color-secondary-300: 190, 178, 250;
+  --color-secondary-400: 157, 139, 245;
+  --color-secondary-500: 130, 108, 240;
+  --color-secondary-600: 109, 84, 224;
+  --color-secondary-700: 92, 66, 200;
+  --color-secondary-800: 76, 55, 160;
+  --color-secondary-900: 62, 46, 128;
+}
