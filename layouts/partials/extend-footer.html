@@ -1,6 +1,6 @@
 {{/* Aurora ambiance — starfield + soft glows, behind all content (dark only) */}}
-<div class="aurora-glow teal" aria-hidden="true"></div>
-<div class="aurora-glow violet" aria-hidden="true"></div>
+<div class="aurora-glow one" aria-hidden="true"></div>
+<div class="aurora-glow two" aria-hidden="true"></div>
 <canvas id="aurora-sky" aria-hidden="true"></canvas>
 
 {{/* Scroll progress bar — teal → violet */}}
@@ -43,7 +43,7 @@
           r: ((Math.abs(Math.sin(i * 3.71)) % 1) * 1.2 + 0.35) * dpr,
           p: (Math.abs(Math.sin(i * 5.17)) % 1) * 6.2832,
           s: 0.3 + (Math.abs(Math.cos(i * 2.31)) % 1) * 0.6,
-          hue: i % 9 === 0 ? '157,139,245' : (i % 6 === 0 ? '65,220,200' : '210,214,240')
+          hue: i % 9 === 0 ? '250,82,82' : (i % 6 === 0 ? '255,138,61' : '255,236,224')
         });
       }
     }

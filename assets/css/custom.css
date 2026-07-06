@@ -1,9 +1,9 @@
 /* ============================================================
-   Punit Deotale — "Aurora" theme for Blowfish
-   Cool cosmic: deep indigo night-sky ground, a living aurora of
-   teal → violet as the one confident accent. Big, tight grotesque
-   headlines; a quiet starfield; motion only where it earns its place.
-   The optimist's night sky.
+   Punit Deotale — "Aurora" theme for Blowfish (warm variant)
+   Cosmic, but a RED aurora: warm charcoal night-sky ground with a
+   living aurora of orange → ember-red as the one confident accent.
+   Big, tight grotesque headlines; a quiet starfield; motion only
+   where it earns its place. The optimist's night sky, set on fire.
    ============================================================ */
 
 /* ── Typography ─────────────────────────────────────────── */
@@ -46,23 +46,23 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   filter: blur(90px);
 }
-.dark .aurora-glow.teal {
+.dark .aurora-glow.one {
   width: 42vw;
   height: 42vw;
   max-width: 620px;
   max-height: 620px;
   left: -10vw;
   top: -14vw;
-  background: radial-gradient(circle, rgba(65, 220, 200, 0.20), transparent 68%);
+  background: radial-gradient(circle, rgba(255, 138, 61, 0.22), transparent 68%);
 }
-.dark .aurora-glow.violet {
+.dark .aurora-glow.two {
   width: 40vw;
   height: 40vw;
   max-width: 560px;
   max-height: 560px;
   right: -12vw;
   top: -6vw;
-  background: radial-gradient(circle, rgba(157, 139, 245, 0.18), transparent 68%);
+  background: radial-gradient(circle, rgba(250, 82, 82, 0.20), transparent 68%);
 }
 
 /* ── Aurora scroll-progress bar (via extend-footer) ──────── */
@@ -73,8 +73,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   width: 0;
   z-index: 100;
-  background: linear-gradient(90deg, rgb(65, 220, 200), rgb(157, 139, 245));
-  box-shadow: 0 0 10px rgba(65, 220, 200, 0.5);
+  background: linear-gradient(90deg, rgb(255, 138, 61), rgb(250, 82, 82));
+  box-shadow: 0 0 10px rgba(255, 111, 61, 0.5);
   transition: width 0.1s ease-out;
 }
 
@@ -87,33 +87,33 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ── Profile hero — gradient name + aurora ring on avatar ── */
 .dark article.items-center h1.font-extrabold {
-  background: linear-gradient(100deg, rgb(108, 233, 214), rgb(157, 139, 245));
+  background: linear-gradient(100deg, rgb(255, 176, 110), rgb(250, 82, 82));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 .dark article.items-center header img {
   box-shadow:
-    0 0 0 1px rgba(65, 220, 200, 0.45),
-    0 0 34px -6px rgba(65, 220, 200, 0.55),
-    0 0 40px -4px rgba(157, 139, 245, 0.45);
+    0 0 0 1px rgba(255, 138, 61, 0.45),
+    0 0 34px -6px rgba(255, 138, 61, 0.55),
+    0 0 40px -4px rgba(250, 82, 82, 0.45);
 }
 
-/* ── In-body links — teal underline warming to violet ────── */
+/* ── In-body links — orange underline warming to red ─────── */
 .dark .prose a:not(.badge) {
-  color: rgb(231, 233, 245);
+  color: rgb(245, 240, 238);
   text-decoration: underline;
-  text-decoration-color: rgba(65, 220, 200, 0.55);
+  text-decoration-color: rgba(255, 138, 61, 0.55);
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
   transition: text-decoration-color 0.2s ease, color 0.2s ease;
 }
 .dark .prose a:not(.badge):hover {
-  color: rgb(108, 233, 214);
-  text-decoration-color: rgb(157, 139, 245);
+  color: rgb(255, 176, 110);
+  text-decoration-color: rgb(250, 82, 82);
 }
 
-/* ── Prose H2 — teal→violet gradient tick ───────────────── */
+/* ── Prose H2 — orange→red gradient tick ────────────────── */
 .dark .prose h2 {
   position: relative;
   padding-left: 0.85rem;
@@ -126,56 +126,56 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0.18em;
   width: 2px;
   border-radius: 2px;
-  background: linear-gradient(180deg, rgb(65, 220, 200), rgb(157, 139, 245));
+  background: linear-gradient(180deg, rgb(255, 138, 61), rgb(250, 82, 82));
 }
 
 /* ── Blockquote — aurora left edge ──────────────────────── */
 .dark .prose blockquote {
-  border-left: 2px solid rgba(65, 220, 200, 0.7);
+  border-left: 2px solid rgba(255, 138, 61, 0.7);
 }
 
 /* ── Tags / taxonomy pills → hairline, aurora on hover ───── */
 .dark a[href*="/tags/"] span span,
 .dark a[href*="/categories/"] span span,
 .dark .post-tags a {
-  color: rgba(200, 203, 224, 0.75) !important;
-  border-color: rgba(200, 203, 224, 0.16) !important;
+  color: rgba(223, 211, 207, 0.75) !important;
+  border-color: rgba(223, 211, 207, 0.16) !important;
   transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
 }
 .dark a[href*="/tags/"]:hover span span,
 .dark a[href*="/categories/"]:hover span span,
 .dark .post-tags a:hover {
-  color: rgb(108, 233, 214) !important;
-  background: rgba(65, 220, 200, 0.1) !important;
-  border-color: rgba(65, 220, 200, 0.45) !important;
+  color: rgb(255, 176, 110) !important;
+  background: rgba(255, 138, 61, 0.1) !important;
+  border-color: rgba(255, 138, 61, 0.45) !important;
 }
 
-/* ── Article meta (date, reading time) → muted cool ─────── */
+/* ── Article meta (date, reading time) → muted warm ─────── */
 .dark .article-meta,
 .dark .article-meta * {
-  color: rgba(137, 144, 176, 0.9) !important;
+  color: rgba(158, 142, 138, 0.95) !important;
 }
 
 /* ── TOC / breadcrumbs → aurora on hover ────────────────── */
 .dark #TableOfContents a:hover,
 .dark .breadcrumbs a:hover {
-  color: rgb(108, 233, 214) !important;
+  color: rgb(255, 176, 110) !important;
 }
 .dark .breadcrumbs a {
-  color: rgba(137, 144, 176, 0.9) !important;
+  color: rgba(158, 142, 138, 0.95) !important;
 }
 
 /* ── Pagination → aurora active ─────────────────────────── */
 .dark .pagination .active a {
-  background: rgba(65, 220, 200, 0.14) !important;
-  border-color: rgba(65, 220, 200, 0.5) !important;
-  color: rgb(108, 233, 214) !important;
+  background: rgba(255, 138, 61, 0.14) !important;
+  border-color: rgba(255, 138, 61, 0.5) !important;
+  color: rgb(255, 176, 110) !important;
 }
 
-/* ── Search highlight → teal ────────────────────────────── */
+/* ── Search highlight → warm ────────────────────────────── */
 .dark mark, .dark .search-result mark {
-  background: rgba(65, 220, 200, 0.22);
-  color: rgb(204, 251, 244);
+  background: rgba(255, 138, 61, 0.24);
+  color: rgb(255, 228, 209);
 }
 
 /* ── Cards → hairline border, aurora lift on hover ──────── */
@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 .dark .taxonomy-card,
 .dark .category-card {
   transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
-  border: 1px solid rgba(200, 203, 224, 0.08);
+  border: 1px solid rgba(223, 211, 207, 0.08);
 }
 
 .dark article[class*="card"]:hover,
@@ -193,8 +193,8 @@ h1, h2, h3, h4, h5, h6 {
 .dark div[class*="recent"] a:hover,
 .dark .taxonomy-card:hover,
 .dark .category-card:hover {
-  border-color: rgba(65, 220, 200, 0.35);
-  box-shadow: 0 18px 40px -22px rgba(65, 220, 200, 0.35);
+  border-color: rgba(255, 138, 61, 0.35);
+  box-shadow: 0 18px 40px -22px rgba(255, 111, 61, 0.4);
   transform: translateY(-3px);
 }
 
@@ -239,26 +239,26 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 10px;
 }
 
-/* ── Scrollbar → slim, cool indigo ──────────────────────── */
+/* ── Scrollbar → slim, warm ─────────────────────────────── */
 .dark ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 .dark ::-webkit-scrollbar-thumb {
-  background: rgba(200, 203, 224, 0.18);
+  background: rgba(223, 211, 207, 0.18);
   border-radius: 4px;
 }
 .dark ::-webkit-scrollbar-thumb:hover {
-  background: rgba(65, 220, 200, 0.5);
+  background: rgba(255, 138, 61, 0.5);
 }
 .dark ::-webkit-scrollbar-track {
   background: transparent;
 }
 
-/* ── Selection → teal ───────────────────────────────────── */
+/* ── Selection → warm ───────────────────────────────────── */
 .dark ::selection {
-  background: rgba(65, 220, 200, 0.28);
-  color: rgb(236, 254, 251);
+  background: rgba(255, 138, 61, 0.30);
+  color: rgb(255, 244, 235);
 }
 
 /* ── Respect reduced-motion ─────────────────────────────── */

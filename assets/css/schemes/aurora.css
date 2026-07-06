@@ -1,38 +1,38 @@
 :root {
-  /* Neutrals — cool cosmic indigo, deep night-sky ground with a faint violet undertone */
-  --color-neutral: 231, 233, 245;
-  --color-neutral-50: 240, 241, 250;
-  --color-neutral-100: 231, 233, 245;
-  --color-neutral-200: 200, 203, 224;
-  --color-neutral-300: 165, 170, 198;
-  --color-neutral-400: 137, 144, 176;
-  --color-neutral-500: 100, 106, 138;
-  --color-neutral-600: 66, 72, 102;
-  --color-neutral-700: 35, 40, 64;
-  --color-neutral-800: 16, 20, 35;
-  --color-neutral-900: 8, 10, 18;
+  /* Neutrals — warm cosmic charcoal, near-black with a faint ember-red undertone */
+  --color-neutral: 245, 240, 238;
+  --color-neutral-50: 246, 241, 239;
+  --color-neutral-100: 240, 233, 230;
+  --color-neutral-200: 223, 211, 207;
+  --color-neutral-300: 191, 176, 171;
+  --color-neutral-400: 158, 142, 138;
+  --color-neutral-500: 116, 100, 97;
+  --color-neutral-600: 74, 60, 58;
+  --color-neutral-700: 45, 33, 33;
+  --color-neutral-800: 27, 18, 18;
+  --color-neutral-900: 16, 10, 10;
 
-  /* Primary — living aurora teal, the confident cool accent */
-  --color-primary-50: 236, 254, 251;
-  --color-primary-100: 204, 251, 244;
-  --color-primary-200: 153, 244, 230;
-  --color-primary-300: 108, 233, 214;
-  --color-primary-400: 65, 220, 200;
-  --color-primary-500: 32, 197, 178;
-  --color-primary-600: 20, 165, 150;
-  --color-primary-700: 15, 130, 120;
-  --color-primary-800: 17, 100, 93;
-  --color-primary-900: 19, 80, 76;
+  /* Primary — solar orange, the leading half of the aurora */
+  --color-primary-50: 255, 244, 235;
+  --color-primary-100: 255, 228, 209;
+  --color-primary-200: 255, 199, 161;
+  --color-primary-300: 255, 166, 110;
+  --color-primary-400: 255, 138, 61;
+  --color-primary-500: 249, 115, 22;
+  --color-primary-600: 224, 90, 16;
+  --color-primary-700: 190, 70, 12;
+  --color-primary-800: 150, 55, 12;
+  --color-primary-900: 120, 45, 12;
 
-  /* Secondary — soft cosmic violet, the second half of the aurora */
-  --color-secondary-50: 245, 243, 255;
-  --color-secondary-100: 237, 233, 254;
-  --color-secondary-200: 221, 214, 254;
-  --color-secondary-300: 190, 178, 250;
-  --color-secondary-400: 157, 139, 245;
-  --color-secondary-500: 130, 108, 240;
-  --color-secondary-600: 109, 84, 224;
-  --color-secondary-700: 92, 66, 200;
-  --color-secondary-800: 76, 55, 160;
-  --color-secondary-900: 62, 46, 128;
+  /* Secondary — ember red, the hot second band of the aurora */
+  --color-secondary-50: 255, 241, 240;
+  --color-secondary-100: 255, 224, 222;
+  --color-secondary-200: 255, 190, 188;
+  --color-secondary-300: 255, 145, 143;
+  --color-secondary-400: 250, 82, 82;
+  --color-secondary-500: 244, 63, 63;
+  --color-secondary-600: 220, 40, 45;
+  --color-secondary-700: 185, 30, 40;
+  --color-secondary-800: 150, 28, 38;
+  --color-secondary-900: 120, 26, 34;
 }
