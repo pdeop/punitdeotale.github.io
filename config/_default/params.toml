@@ -1,6 +1,8 @@
-colorScheme = "midnight"
+colorScheme = "lightning"
 defaultAppearance = "dark"
 autoSwitchAppearance = false
+
+mainSections = ["blog"]
 
 enableSearch = true
 enableCodeCopy = true
@@ -20,7 +22,7 @@ Logo = "images/punit_ai.jpg"
   showScrollToTop = true
 
 [homepage]
-  layout = "profile"
+  layout = "bento"
   showRecent = true
   showRecentItems = 6
   showMoreLink = true

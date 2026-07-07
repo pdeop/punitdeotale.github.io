@@ -1,0 +1,44 @@
+/* Electric Adventurer — "Lightning" scheme
+   Editorial navy + gold, inspired by the TrailSpark Vol.02 review design.
+     primary   = lightning gold  (#f0c040)
+     secondary = ice blue        (#7eb8d4)
+     neutrals  = navy / steel / slate / mist / cream
+*/
+:root {
+  /* Neutrals — navy obsidian ground, cream text */
+  --color-neutral: 242, 237, 228;        /* cream — default text (#f2ede4) */
+  --color-neutral-50: 253, 252, 249;     /* white (#fdfcf9) */
+  --color-neutral-100: 242, 237, 228;    /* cream */
+  --color-neutral-200: 226, 220, 210;
+  --color-neutral-300: 168, 184, 196;    /* mist (#a8b8c4) */
+  --color-neutral-400: 138, 152, 164;
+  --color-neutral-500: 108, 124, 140;
+  --color-neutral-600: 58, 80, 104;      /* slate (#3a5068) */
+  --color-neutral-700: 30, 45, 61;       /* steel (#1e2d3d) */
+  --color-neutral-800: 20, 31, 43;
+  --color-neutral-900: 15, 25, 35;       /* navy (#0f1923) */
+
+  /* Primary — lightning gold */
+  --color-primary-50: 253, 247, 224;
+  --color-primary-100: 251, 239, 196;
+  --color-primary-200: 247, 224, 140;
+  --color-primary-300: 244, 208, 100;
+  --color-primary-400: 242, 200, 80;
+  --color-primary-500: 240, 192, 64;     /* #f0c040 */
+  --color-primary-600: 214, 168, 48;
+  --color-primary-700: 176, 136, 36;
+  --color-primary-800: 130, 100, 28;
+  --color-primary-900: 92, 70, 20;
+
+  /* Secondary — ice blue */
+  --color-secondary-50: 235, 245, 250;
+  --color-secondary-100: 214, 234, 244;
+  --color-secondary-200: 180, 215, 233;
+  --color-secondary-300: 150, 200, 224;
+  --color-secondary-400: 126, 184, 212;  /* #7eb8d4 */
+  --color-secondary-500: 100, 166, 200;
+  --color-secondary-600: 78, 140, 176;
+  --color-secondary-700: 60, 110, 140;
+  --color-secondary-800: 44, 82, 104;
+  --color-secondary-900: 32, 60, 76;
+}

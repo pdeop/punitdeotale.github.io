@@ -1,16 +1,1 @@
-{{/* Thin scroll-progress bar — the one quiet flourish */}}
-<div id="scroll-progress" aria-hidden="true"></div>
-<script>
-  (function () {
-    var bar = document.getElementById('scroll-progress');
-    if (!bar) return;
-    function update() {
-      var doc = document.documentElement;
-      var max = doc.scrollHeight - doc.clientHeight;
-      bar.style.width = (max > 0 ? (doc.scrollTop / max) * 100 : 0) + '%';
-    }
-    document.addEventListener('scroll', update, { passive: true });
-    window.addEventListener('resize', update);
-    update();
-  })();
-</script>
+{{/* No custom footer additions — matches the shared editorial design. */}}

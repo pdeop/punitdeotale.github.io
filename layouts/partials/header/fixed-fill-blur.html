@@ -1,0 +1,17 @@
+{{/* Edge-to-edge top bar — transparent at top, blurs + neon border on scroll.
+     Self-contained styling (see .ea-topbar in custom.css). */}}
+<div class="ea-nav-spacer"></div>
+<header class="ea-topbar" id="ea-topbar">
+  <div class="ea-topbar-inner">
+    {{ partial "header/basic.html" . }}
+  </div>
+</header>
+<script>
+  (function () {
+    var bar = document.getElementById("ea-topbar");
+    if (!bar) return;
+    var sync = function () { bar.classList.toggle("is-scrolled", window.scrollY > 8); };
+    sync();
+    window.addEventListener("scroll", sync, { passive: true });
+  })();
+</script>

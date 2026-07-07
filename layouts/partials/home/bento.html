@@ -1,0 +1,67 @@
+{{/* Punit Deotale homepage — editorial hero + stats + recent-posts grid.
+     Same self-contained design as the shared "lightning" theme
+     (see .ea-hero* / .ea-stats / .ea-posts in assets/css/custom.css). */}}
+
+{{ $mainPosts := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+
+<!-- ── Hero header ─────────────────────────────────────────────────── -->
+<section class="ea-hero-header">
+  <div class="ea-hero-inner">
+    <span class="ea-hero-eyebrow"><span class="dot"></span>Identity · Longevity · The future</span>
+    <h1 class="ea-hero-title">Punit <span class="spark">Deotale</span></h1>
+    <p class="ea-hero-tagline">{{ .Site.Params.Author.bio | default .Site.Params.description }}</p>
+    <div class="ea-cta">
+      <a class="ea-btn" href="{{ "/blog/" | relURL }}">Read the blog →</a>
+      <a class="ea-btn ea-btn-ghost" href="{{ "/about/" | relURL }}">About</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Stats strip ─────────────────────────────────────────────────── -->
+<div class="ea-stats-band">
+  <div class="ea-stats">
+    <div class="ea-stat-item">
+      <div class="ea-stat-num">Millions</div>
+      <div class="ea-stat-cap">Customers using the IAM I build</div>
+    </div>
+    <div class="ea-stat-item">
+      <div class="ea-stat-num">{{ len $mainPosts }}</div>
+      <div class="ea-stat-cap">Essays &amp; notes published</div>
+    </div>
+    <div class="ea-stat-item">
+      <div class="ea-stat-num">3</div>
+      <div class="ea-stat-cap">Obsessions: tech · health · future</div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Recent posts ────────────────────────────────────────────────── -->
+<section class="ea-section">
+  <div class="ea-section-head">
+    <h2>Recent writing</h2>
+    <a href="{{ "/blog/" | relURL }}">All posts →</a>
+  </div>
+
+  <div class="ea-posts">
+    {{ range first 9 $mainPosts }}
+      {{ $img := "" }}
+      {{ if not .Params.hideFeatureImage }}
+        {{ with .Params.featureimage }}{{ $img = resources.Get . }}{{ end }}
+        {{ if not $img }}{{ $img = (.Resources.ByType "image").GetMatch "*feature*" }}{{ end }}
+      {{ end }}
+      <article class="ea-card has-media">
+        {{ if $img }}
+          <a class="ea-media" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+            <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+          </a>
+        {{ end }}
+        <div class="ea-media-body">
+          <span class="ea-meta">{{ .Date.Format "January 2, 2006" }}{{ with .ReadingTime }} · {{ . }} min{{ end }}</span>
+          <h3 class="ea-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p class="ea-desc ea-clamp-3">{{ .Description | default .Summary | plainify }}</p>
+          <div class="ea-tags">{{ range first 3 .Params.tags }}<span class="ea-tag">#{{ . }}</span>{{ end }}</div>
+        </div>
+      </article>
+    {{ end }}
+  </div>
+</section>
