@@ -1,4 +1,4 @@
-colorScheme = "lightning"
+colorScheme = "aurora"
 defaultAppearance = "dark"
 autoSwitchAppearance = false
 
@@ -12,7 +12,7 @@ disableTextInHeader = false
 Logo = "images/punit_ai.jpg"
 
 [header]
-  layout = "fixed-fill-blur"
+  layout = "fixed"
 
 [footer]
   showMenu = true
@@ -22,7 +22,7 @@ Logo = "images/punit_ai.jpg"
   showScrollToTop = true
 
 [homepage]
-  layout = "bento"
+  layout = "aurora"
   showRecent = true
   showRecentItems = 6
   showMoreLink = true

@@ -1,0 +1,31 @@
+{{/* Aurora homepage — cosmic hero (gradient headline + pill CTAs) and a
+     recent-writing card grid. Styling is self-contained in custom.css
+     (.au-* classes) and the aurora color scheme. */}}
+
+{{ $mainPosts := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+
+<!-- ── Hero ────────────────────────────────────────────────────────── -->
+<section class="au-hero">
+  <p class="au-eyebrow">Identity · Longevity · The Future</p>
+  <h1 class="au-title">Building for the world<br>we <span class="grad">might</span> get to.</h1>
+  <p class="au-tagline">SDM on AWS IAM by day. The rest of the time: an optimist writing about security, health, and the breakthroughs — mRNA, CRISPR, clean energy — that make me think we might actually figure this out.</p>
+  <div class="au-cta">
+    <a class="au-btn au-btn-primary" href="{{ "/blog/" | relURL }}">Read the blog</a>
+    <a class="au-btn" href="{{ "/about/" | relURL }}">About me</a>
+    <a class="au-btn" href="https://www.linkedin.com/in/punitdeotale/" target="_blank" rel="me noopener">LinkedIn</a>
+  </div>
+</section>
+
+<!-- ── Recent writing ──────────────────────────────────────────────── -->
+<div class="au-section-label">Recent writing</div>
+<div class="au-cards">
+  {{ range first 6 $mainPosts }}
+    {{ $cat := "" }}
+    {{ with .Params.categories }}{{ $cat = index . 0 }}{{ else }}{{ with $.Params.tags }}{{ $cat = index . 0 }}{{ end }}{{ end }}
+    <a class="au-card" href="{{ .RelPermalink }}">
+      {{ with $cat }}<div class="au-cat">{{ . }}</div>{{ end }}
+      <div class="au-card-title">{{ .Title }}</div>
+      <div class="au-card-date">{{ .Date.Format "2006 · 01" }}</div>
+    </a>
+  {{ end }}
+</div>
